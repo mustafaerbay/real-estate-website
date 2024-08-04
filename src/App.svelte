@@ -41,7 +41,7 @@
   
   <main>
 	{#if loading}
-	  <div class="loading">Loading listings...</div>
+	  <!-- <div class="loading">Loading listings...</div> -->
 	  <LandingPage></LandingPage>
 	{:else if error}
 	  <div class="error">Error: {error}</div>
