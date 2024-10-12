@@ -11,6 +11,7 @@
       height: 100vh;
       text-align: center;
       background-color: #f0f0f0;
+      /* background-color: #ff6600; */
     }
   
     h1 {
@@ -28,10 +29,15 @@
       color: #ff6600;
       margin-bottom: 20px;
     }
+    img {
+      width: 50%;
+      height: 50%;
+    }
   </style>
   
   <div class="container">
-    <div class="construction-icon">🚧</div>
+    <!-- <div class="construction-icon">🚧</div> -->
+    <img src="logo.png">
     <h1>Website Under Construction</h1>
     <p>We are working hard to launch our new real estate website. Stay tuned!</p>
   </div>
