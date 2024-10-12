@@ -30,7 +30,7 @@
       margin-bottom: 20px;
     }
     img {
-      width: 50%;
+      width: 40%;
       height: 50%;
     }
   </style>
