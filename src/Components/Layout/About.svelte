@@ -20,8 +20,8 @@
 			</Col>
 			<Col lg="6">
 				<div class="mt-3">
-					<h2><span class="fw-bold">Hakkımızda</span></h2>
-					<h4 class="mt-4"><span class="text-primary fw-bold">Piripack Ambalaj</span></h4>
+					<h2><span class="fw-bold">Kurumsal</span></h2>
+					<h4 class="mt-4"><span class="text-primary fw-bold">Paradoks Gayrimenkul</span></h4>
 					<p class="text-muted mt-4">
 						PİRİPACK AMBALAJ Gaziantep 5. Organize Sanayi Bölgesinde <Span underline>30000 m2</Span>
 						kapalı alanda üretimini gerçekleştirmekte olup

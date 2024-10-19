@@ -53,8 +53,8 @@
 >
 	<Container>
 		<a class="navbar-brand logo pt-0" href="#contact">
-			<img src="images/logo.png" alt="" class="img-fluid logo-light" />
-			<img src="images/logo.png" alt="" class="img-fluid logo-dark" />
+			<img src="images/logo.webp" alt="" class="img-fluid logo-light" />
+			<img src="images/logo.webp" alt="" class="img-fluid logo-dark" />
 		</a>
 		<NavbarToggler
 			type="button"
@@ -76,13 +76,13 @@
 					>
 				</NavItem>
                 
-				<NavItem>
+				<!-- <NavItem>
 					<a
 						class={`nav-link ${activeLink === 'about' ? 'active' : ''}`}
 						href="#about"
 						on:click={() => (activeLink = 'about')}>Hakkımızda</a
 					>
-				</NavItem>
+				</NavItem> -->
                 <NavItem>
 					<a
 						class={`nav-link ${activeLink === 'blog' ? 'active' : ''}`}
@@ -90,13 +90,13 @@
 						on:click={() => (activeLink = 'blog')}>Blog</a
 					>
 				</NavItem>
-				<NavItem>
+				<!-- <NavItem>
 					<a
 						class={`nav-link ${activeLink === 'services' ? 'active' : ''}`}
 						href="#services"
 						on:click={() => (activeLink = 'services')}>Hizmetlerimiz</a
 					>
-				</NavItem>
+				</NavItem> -->
 				<!-- <NavItem>
                     <a class={`nav-link ${activeLink === "client" ? "active" : ""}`} href="#client" on:click={() => (activeLink = "client")}>Müşteriler</a>
                 </NavItem> -->

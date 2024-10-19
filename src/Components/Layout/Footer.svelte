@@ -11,7 +11,7 @@
                     </ul>
                     <p class="copyright_content mb-0 mt-3">
                         <script>document.write(new Date().getFullYear())</script>
-                        &copy; Piripack
+                        &copy; Paradoks Gayrimenkul
                     </p>
                 </div>
             </div>

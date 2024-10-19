@@ -32,9 +32,9 @@
 <Footer footerType="logo">
 	<div class="sm:flex sm:items-center sm:justify-between">
 		<FooterBrand
-			href="https://piripack.com.tr"
-			src="/images/logo.png"
-			alt="PiriPack Logo"
+			href="https://www.paradoksgayrimenkul.com"
+			src="/images/logo.webp"
+			alt="Paradoks Gayrimenkul Logo"
 			name=""
 		/>
 
@@ -51,7 +51,7 @@
 		</FooterLinkGroup>
 	</div>
 	<!-- <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
-	<FooterCopyright href="/" by="PiriPack" aClass="" />
+	<FooterCopyright href="/" by="Paradoks Gayrimenkul" aClass="" />
 </Footer>
 
 
