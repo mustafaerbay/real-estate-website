@@ -1,7 +1,7 @@
 <script>
 	export let company_details;
 </script>
-
+<!-- TODO: UPDATE FORMSPREE URL -->
 <section class="section" id="contact">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -41,7 +41,6 @@
 						<a href="mailto:{company_details.email}"
 							><p class="text-muted">{company_details.email}</p>
 						</a	>
-						<p class="text-muted">{company_details.email_2}</p>
 
 					</div>
 				</div>
@@ -64,7 +63,7 @@
 			<div class="col-lg-12">
 				<div class="form-kerri contact_form">
 					<div id="message"></div>
-					<form method="post" action="https://formspree.io/f/mzzpqqvb" name="contact-form" id="working_form">
+					<form method="post" action="{company_details.formspree_url}" name="contact-form" id="working_form">
 						<div class="row">
 							<div class="col-lg-6">
 								<div class="form-group mt-2">

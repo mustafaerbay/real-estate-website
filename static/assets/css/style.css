@@ -19,7 +19,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #11161a;
   /* --bs-primary: #0d6efd; */
-  --bs-primary: #24734f;
+  --bs-primary: #dd5c16;
   --bs-primary-rgb: 36, 115, 79 ;
   /* --bs-primary-rgb: 13, 110, 253 ; */
   --bs-secondary: #6c757d;
@@ -38,7 +38,7 @@
   --bs-dark-rgb: 17, 22, 26 ;
   --bs-white: #fff;
   --bs-white-rgb: 255, 255, 255 ;
-  --bs-primary-text-emphasis: #24734f;
+  --bs-primary-text-emphasis: #ff8800;
   /* --bs-primary-text-emphasis: #0267fb; */
   --bs-secondary-text-emphasis: #666f76;
   --bs-success-text-emphasis: #693db9;
