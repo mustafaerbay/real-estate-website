@@ -1,0 +1,41 @@
+<script>
+    let email = '';
+    let subject = '';
+    let message = '';
+    let successMessage = '';
+
+    // async function sendEmail() {
+    //     const response = await fetch('/api/contact', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: JSON.stringify({ email, subject, message }),
+    //     });
+
+    //     const result = await response.json();
+
+    //     if (result.success) {
+    //         successMessage = 'Email başarıyla gönderildi!';
+    //     } else {
+    //         successMessage = 'Email gönderme başarısız oldu: ' + result.error;
+    //     }
+    // }
+</script>
+
+<form on:submit|preventDefault={sendEmail}>
+    <label for="email">Email:</label>
+    <input id="email" bind:value={email} type="email" required />
+
+    <label for="subject">Konu:</label>
+    <input id="subject" bind:value={subject} type="text" required />
+
+    <label for="message">Mesaj:</label>
+    <textarea id="message" bind:value={message} required></textarea>
+
+    <button type="submit">Gönder</button>
+</form>
+
+{#if successMessage}
+    <p>{successMessage}</p>
+{/if}
