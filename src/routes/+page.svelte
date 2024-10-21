@@ -13,7 +13,7 @@
         <Row class="justify-content-center">
             <Col lg="12">
                 <div class="text-center header-content mx-auto">
-                    <!-- <h4 class="text-white first-title mb-4">Piripack</h4> -->
+                    <!-- <h4 class="text-white first-title mb-4">Paradoks</h4> -->
                 <h1 class="header-name text-white text-capitalize mb-0">Paradoks Real Estate
                         <TypeWriter />
                     </h1>

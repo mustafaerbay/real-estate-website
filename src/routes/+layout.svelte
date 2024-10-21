@@ -39,8 +39,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- <link rel="stylesheet" href="assets/css/app.css"> -->
 
-    <title>Piripack Ambalaj</title>
-    <meta name="description" content="Piri Pack Ambalaj | Anasayfa" />
+    <title>Paradoks Real Estate</title>
+    <meta name="description" content="Paradoks Real Estate | Home" />
 </svelte:head>
 
 <!-- Loader -->
