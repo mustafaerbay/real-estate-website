@@ -104,7 +104,7 @@
 								<input class="input" id="ipmgh-6" bind:value={$contact_info.email} name="Email" />
 							</div>
 							<div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-								<p class="text-blk input-title">İLETİŞİM NO</p>
+								<p class="text-blk input-title">CONTACT</p>
 								<input
 									class="input"
 									id="imgis-5"

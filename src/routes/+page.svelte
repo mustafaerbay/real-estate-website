@@ -14,12 +14,12 @@
             <Col lg="12">
                 <div class="text-center header-content mx-auto">
                     <!-- <h4 class="text-white first-title mb-4">Piripack</h4> -->
-                    <h1 class="header-name text-white text-capitalize mb-0">Paradoks Gayrimenkul
+                    <h1 class="header-name text-white text-capitalize mb-0">Paradoks Real Estate
                         <TypeWriter />
                     </h1>
                     <!-- <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p> -->
                     <div class="mt-4 pt-2">
-                        <a href="#contact" class="btn btn-outline-white rounded-pill">İletişime Geç</a>
+                        <a href="#contact" class="btn btn-outline-white rounded-pill">Contact Us</a>
                     </div>
                 </div>
             </Col>
@@ -31,4 +31,4 @@
         </a>
     </div>
 </section>
-<!-- <About/> -->
+<About/>

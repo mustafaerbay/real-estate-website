@@ -51,29 +51,29 @@ const links = [
 const categories = [
     {
         "id": 1,
-        "name": "SATILIK EVLER",
-        "short_name": "EV",
+        "name": "HOME FOR SALE",
+        "short_name": "HOME",
         "description": "Latest gadgets and electronics",
         "url": "images/foto-01.webp"
     },
     {
         "id": 2,
-        "name": "OFIS KIRALAMALARI",
-        "short_name": "OFIS",
+        "name": "OFFICE RENTALS",
+        "short_name": "OFFICE",
         "description": "Appliances for your home",
         "url": "images/foto-02.webp"
     },
     {
         "id": 3,
-        "name": "ARSA ALI SATIMLARI",
-        "short_name": "ARSA",
+        "name": "BUY LANDS",
+        "short_name": "LAND",
         "description": "ARSA ALIM-SATIM ISLERI",
         "url": "images/foto-03.webp"
     },
     {
         "id": 4,
-        "name": "KIRALIK",
-        "short_name": "KIRALIK",
+        "name": "RENTALS",
+        "short_name": "RENTALS",
         "description": "Wide range of books and literature",
         "url": "images/foto-04.webp"
     }

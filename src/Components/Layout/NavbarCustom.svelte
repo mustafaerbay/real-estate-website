@@ -72,7 +72,7 @@
 					<a
 						class={`nav-link ${activeLink === 'home' ? 'active' : ''}`}
 						href="#home"
-						on:click={() => (activeLink = 'home')}>Anasayfa</a
+						on:click={() => (activeLink = 'home')}>Home</a
 					>
 				</NavItem>
                 
@@ -112,7 +112,7 @@
 					<a
 						class={`nav-link ${activeLink === 'contact' ? 'active' : ''}`}
 						href="#contact"
-						on:click={() => (activeLink = 'contact')}>İletişim {company_details.phone}</a
+						on:click={() => (activeLink = 'contact')}>Contact {company_details.phone}</a
 					>
 				</NavItem>
 			</Nav>
