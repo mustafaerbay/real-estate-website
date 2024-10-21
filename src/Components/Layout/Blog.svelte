@@ -11,7 +11,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
 				<div class="text-center">
-					<h2>Yeni <span class="fw-bold">Eklenenler</span></h2>
+					<h2>New <span class="fw-bold">Portfolio items</span></h2>
 					<p class="text-muted section-subtitle mx-auto mt-3">
 						{products.description}
 					</p>
