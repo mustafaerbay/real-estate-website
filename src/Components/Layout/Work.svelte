@@ -57,7 +57,7 @@
 		<Row class="row justify-content-center">
 			<div class="col-lg-12">
 				<div class="text-center">
-					<h2><span class="fw-bold">ÜRÜNLER</span></h2>
+					<h2><span class="fw-bold">PORTFOLIO</span></h2>
 					<p class="text-muted section-subtitle mx-auto mt-3">
 						It is a long established fact that a reader will be of a page when established fact
 						looking at its layout.

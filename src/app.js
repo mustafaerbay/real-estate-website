@@ -51,29 +51,29 @@ const links = [
 const categories = [
     {
         "id": 1,
-        "name": "SIVI DOLUM AMBALAJLARI",
-        "short_name": "SIVI",
+        "name": "SATILIK EVLER",
+        "short_name": "EV",
         "description": "Latest gadgets and electronics",
         "url": "images/foto-01.webp"
     },
     {
         "id": 2,
-        "name": "DOYPACK AMBALAJLAR",
-        "short_name": "DOYPACK",
+        "name": "OFIS KIRALAMALARI",
+        "short_name": "OFIS",
         "description": "Appliances for your home",
         "url": "images/foto-02.webp"
     },
     {
         "id": 3,
-        "name": "ÖZEL  HALI SHRİNK AMBALAJLARI",
-        "short_name": "HALI",
-        "description": "Clothing and accessories for all",
+        "name": "ARSA ALI SATIMLARI",
+        "short_name": "ARSA",
+        "description": "ARSA ALIM-SATIM ISLERI",
         "url": "images/foto-03.webp"
     },
     {
         "id": 4,
-        "name": "MARKAMIZA ÖZEL ÜRÜNLER",
-        "short_name": "PIRIPACK",
+        "name": "KIRALIK",
+        "short_name": "KIRALIK",
         "description": "Wide range of books and literature",
         "url": "images/foto-04.webp"
     }

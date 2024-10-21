@@ -26,7 +26,7 @@
         </Row>
     </Container>
     <div class="scroll_down">
-        <a href="#about" class="scroll">
+        <a href="#portfolio" class="scroll">
             <i class="text-white"></i>
         </a>
     </div>
