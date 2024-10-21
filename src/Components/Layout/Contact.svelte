@@ -1,7 +1,6 @@
 <script>
 	export let company_details;
 </script>
-<!-- TODO: UPDATE FORMSPREE URL -->
 <section class="section" id="contact">
 	<div class="container">
 		<div class="row justify-content-center">
