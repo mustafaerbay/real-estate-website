@@ -12,7 +12,7 @@ export async function load() {
     // const data = await fs.readFile(filePath, 'utf-8');
     const response = await fetch("https://www.paradoksgayrimenkul.com/data/properties.json")
     // const properties = JSON.parse(data);
-    const properties = response.json()
+    const properties = await response.json()
 
     // Return the properties as a JSON response
     // return json({ properties });
