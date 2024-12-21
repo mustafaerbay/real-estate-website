@@ -31,4 +31,4 @@
         </a>
     </div>
 </section>
-<About/>
+<!-- <About/> -->
