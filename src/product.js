@@ -1,53 +1,76 @@
 export const products = [
     {
         "id": "101",
-        "is_highlighted": false,
-        "name": "demo 01",
         "category_id": 1,
+        "is_highlighted": false,
+        "title": "demo 01",
+        "address": "adres bilgisi",
         "price": 799.99,
-        "stock": 25,
         "description": "demo 01 aciklama",
         "image_url": "images/foto-01.webp",
+        "images_path": "images/listings/astoria",
         "tags": ["365m2", "5.kat"],
-        "long_description": "demo 01 uzun aciklama"
+        "long_description": "demo 01 uzun aciklama",
+        "images": [
+            {
+                "src" : "images/listings/demo1/foto1.webp",
+                "alt" : "gayrimenkul fotografi",
+                "class": "img-fluid d-block mx-auto rounded"
+            },
+            
+        ]
     },
     {
         "id": "201",
-        "is_highlighted": true,
-        "name": "Astoria Full",
         "category_id": 2,
+        "is_highlighted": true,
+        "title": "Astoria Full",
+        "address": "adres bilgisi",
         "price": 99.99,
-        "stock": 25,
         "description": "demo 02 aciklama",
         "image_url": "images/foto-02.webp",
         "image_list": ["images/listings/astoria"],
+        "images_path": "images/listings/astoria",
         "tags": ["350m2", "1.kat"],
         "long_description": "demo 02 uzun aciklama"
     },
     {
         "id": "301",
         "is_highlighted": false,
-        "name": "demo 03",
+        "title": "demo 03",
         "category_id": 3,
         "price": 99.99,
         "stock": 25,
         "description": "demo 03 aciklama",
         "image_url": "images/foto-03.webp",
+        "images_path": "images/listings/astoria",
         "tags": ["1000m2", "10.kat"],
         "long_description": "demo 03 uzun aciklama"
     },
     {
         "id": "401",
         "is_highlighted": false,
-        "name": "demo 04",
+        "title": "demo 04",
         "category_id": 4,
         "price": 99.99,
         "stock": 25,
         "description": "demo 04 aciklama",
         "image_url": "images/foto-04.webp",
+        "images_path": "images/listings/astoria",
         "tags": ["123m2", "29.kat"],
         "long_description": "demo 04 uzun aciklama"
     }
+]
+
+export const types = [
+    "Buy",
+    "Rent"
+]
+
+export const rental_frequency = [
+    "yearly",
+    "monthly",
+    "weekly"
 ]
 
 export const categories = [

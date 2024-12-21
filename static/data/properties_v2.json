@@ -1,0 +1,302 @@
+[
+    {
+        "id": "2c491a9a",
+        "is_highlighted": false,
+        "name": "test1",
+        "category_id": 1,
+        "price": 0.0,
+        "stock": 1,
+        "description": "test1 listing",
+        "image_url": "images/listings/test1/foto-02.webp",
+        "images_path": "images/listings/test1",
+        "tags": [],
+        "long_description": "Listing for test1",
+        "images": [
+            {
+                "src": "images/listings/test1/foto-02.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/test1/foto-03.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/test1/foto-01.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            }
+        ]
+    },
+    {
+        "id": "8712b0fa",
+        "is_highlighted": false,
+        "name": "test2",
+        "category_id": 1,
+        "price": 0.0,
+        "stock": 1,
+        "description": "test2 listing",
+        "image_url": "images/listings/test2/foto-02.webp",
+        "images_path": "images/listings/test2",
+        "tags": [],
+        "long_description": "Listing for test2",
+        "images": [
+            {
+                "src": "images/listings/test2/foto-02.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/test2/foto-03.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/test2/foto-01.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            }
+        ]
+    },
+    {
+        "id": "c180883d",
+        "is_highlighted": false,
+        "name": "astoria",
+        "category_id": 1,
+        "price": 0.0,
+        "stock": 1,
+        "description": "astoria listing",
+        "image_url": "images/listings/astoria/IMG-20241026-WA0104.webp",
+        "images_path": "images/listings/astoria",
+        "tags": [],
+        "long_description": "Listing for astoria",
+        "images": [
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0104.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0112.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0108.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0098.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0099.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0109.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0083.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0095.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0105.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0102.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0092.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0085.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0093.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0086.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0100.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0101.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0091.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0087.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0096.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0110.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0106.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0107.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/astoria/IMG-20241026-WA0097.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            }
+        ]
+    },
+    {
+        "id": "2b4799e5",
+        "is_highlighted": false,
+        "name": "barbaros",
+        "category_id": 1,
+        "price": 0.0,
+        "stock": 1,
+        "description": "barbaros listing",
+        "image_url": "images/listings/barbaros/IMG-20241026-WA0128.webp",
+        "images_path": "images/listings/barbaros",
+        "tags": [],
+        "long_description": "Listing for barbaros",
+        "images": [
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0128.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0124.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0125.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0129.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0113.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0118.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0122.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0114.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0115.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0123.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0119.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0120.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0116.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0117.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0121.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0126.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0130.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0131.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            },
+            {
+                "src": "images/listings/barbaros/IMG-20241026-WA0127.webp",
+                "alt": "gayrimenkul fotografi",
+                "title": "img-fluid d-block mx-auto rounded"
+            }
+        ]
+    }
+]

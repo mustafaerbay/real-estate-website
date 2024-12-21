@@ -47,6 +47,7 @@
 
     <title>Paradoks Real Estate</title>
     <meta name="description" content="Paradoks Real Estate | Home" />
+	<meta name="google-site-verification" content="l22pghUc_H4ExgSIqtQazg66YFNgQMW0Ii5d7mlZoJ0" />
     
 </svelte:head>
 

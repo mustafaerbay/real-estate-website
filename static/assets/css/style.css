@@ -1220,12 +1220,15 @@ ul.pattern .color6 {
   z-index: 999;
   margin-bottom: 0px;
   transition: all 0.5s ease-in-out;
+  background-color: white;
+
 }
 
 .custom-nav .navbar-nav li a {
-  color: #fff !important;
+  color: var(--bs-btn-active-color)!important;
+  /* color: #fff !important; */
   font-size: 15px;
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   margin: 0 7px;
   letter-spacing: 0.05em;
   line-height: 24px;
@@ -1276,7 +1279,8 @@ ul.pattern .color6 {
 }
 
 .custom-nav.stickyadd {
-  background-color: var(--bs-body-bg) !important;
+  /* background-color: var(--bs-body-bg) !important; */
+  background-color: var(--bs-gray-400);
   padding: 15px 0px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
