@@ -1,13 +1,13 @@
 <script lang="ts">
     // @ts-nocheck
-
+    import { company_details } from "../app";
     import { Col, Container, Row } from "@sveltestrap/sveltestrap";
     import TypeWriter from "../Components/TypeWriter.svelte";
     import About from "../Components/Layout/About.svelte";
     import Work from "../Components/Layout/Work.svelte";
     import Blog from "../Components/Layout/Blog.svelte";
     import Sta from "../Components/Layout/Sta.svelte";
-
+    import Contact from "../Components/Layout/Contact.svelte";
 </script>
 
 <section
@@ -48,3 +48,4 @@
 <slot></slot>
 <Blog></Blog>
 <Work></Work>
+<Contact {company_details} />

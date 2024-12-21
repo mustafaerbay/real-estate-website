@@ -1,12 +1,12 @@
 <script>
     import Contact from "../../Components/Layout/Contact.svelte";
+    import { company_details } from "../../app";
 
 </script>
+
 <section class="section" id="contact">
     <div class="container">
-        <div class="text-center">
-            <h1>Portfolio</h1>
-        </div>
-        <Contact></Contact>
+        <!-- <Contact></Contact> -->
+        <Contact {company_details} />
     </div>
 </section>

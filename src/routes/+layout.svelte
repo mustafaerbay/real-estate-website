@@ -77,7 +77,6 @@
 <!-- <Client /> -->
 
 <!-- START CONTACT -->
-<Contact {company_details} />
 <!--START FOOTER-->
 <Footer />
 
