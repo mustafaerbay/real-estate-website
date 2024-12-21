@@ -1,4 +1,5 @@
 import { json } from '@sveltejs/kit';
+import { listingsData } from '../listingDatabase';
 // import fs from 'fs/promises';
 // import path from 'path';
 
@@ -10,14 +11,14 @@ export async function load() {
   try {
     // Read and parse the JSON file
     // const data = await fs.readFile(filePath, 'utf-8');
-    const response = await fetch("https://www.paradoksgayrimenkul.com/data/properties.json")
+    // const response = await fetch("https://www.paradoksgayrimenkul.com/data/properties.json")
     // const properties = JSON.parse(data);
-    const properties = await response.json()
-
+    // const properties = await response.json()
+    const pr = listingsData
     // Return the properties as a JSON response
     // return json({ properties });
     return {
-        properties: properties
+        properties: pr
     }
   } catch (error) {
     console.log('Error loading properties:', error);

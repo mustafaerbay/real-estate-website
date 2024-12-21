@@ -68,7 +68,6 @@
 
 
 <!-- START CTA -->
-<Sta />
 <!-- START SERVICES -->
 <!-- <Services /> -->
 

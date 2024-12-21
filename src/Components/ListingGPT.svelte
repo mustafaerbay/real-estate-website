@@ -11,11 +11,30 @@
     {#each listings as listing}
         <div class="card">
             <!-- <img src={listing.media.images[0].src} alt={listing.title} /> -->
-            <ImageCarousels images={listing.media.images}></ImageCarousels>
+            <div>
+                <ImageCarousels images={listing.media.images}></ImageCarousels>
+            </div>
             <div class="details">
-                <a href="/" class="title">{listing.title}</a>
-                <div class="price">{listing.pricing.price} {listing.pricing.currency}</div>
-                <div class="description">{listing.description}</div>
+                <div class="title-container">
+                    <div class="title">
+                        <a href="/" class="title">{listing.title}</a>
+                    </div>
+                    <div class="status">
+                        <p>{listing.status}</p>
+                    </div>
+                </div>
+                <div class="price">
+                    {listing.pricing.price}
+                    {listing.pricing.currency}
+                </div>
+                <!-- <div class="description">{listing.description[0]}</div> -->
+                <div class="descriptions">
+                    {#each listing.description as item}
+                        <p>
+                            {item}
+                        </p>
+                    {/each}
+                </div>
                 <div class="type-area">
                     {listing.type} | Area: {listing.features.squareFeet} sqft
                 </div>
@@ -71,9 +90,16 @@
 </div>
 
 <style>
+    .title-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 12fr;
         gap: 16px;
         /* padding: 16px; */
         /* margin-top: 48px; */
@@ -133,6 +159,10 @@
         margin-top: 4px;
         color: #666;
     }
+    .descriptions p {
+        font-size: 10px;
+        color: #333;
+    }
 
     .title {
         font-size: 16px;
@@ -140,6 +170,20 @@
         margin: 8px 0;
         color: #00796b;
         text-decoration: none;
+        grid-column-start: span 4;
+    }
+    .status {
+        font-size: large;
+        font-weight: bolder;
+        font-size: x-large;
+        grid-column-start: 6;
+        grid-column-end: 6;
+        /* justify-items: end; */
+        /* justify-self: center; */
+        /* background-color: rgb(16, 160, 33); */
+        border-radius: 10%;
+        align-content: center;
+        /* align-items: center; */
     }
 
     .title:hover {

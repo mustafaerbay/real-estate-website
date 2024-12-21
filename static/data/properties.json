@@ -2,6 +2,12 @@
   {
     "id": "12345",
     "title": "Modern 3-Bedroom Apartment",
+    "description_v2": [
+      "ANA PLAZADAN BAĞIMSIZ HER KAT 2500 M2 x 3 KAT TOPLAM 7500 M2 KULLANIM ALANI",
+      "TAM MÜSTAKİL 2 KATLI KAPALI OTOPARK ALANI TOPLAM 80 ARAÇ",
+      "110.000 USD KARŞILIĞI TL KİRA RAKAMI",
+      "KİRA + STOPAJ"
+    ],
     "description": "5500 m2 kapalı kullanım alanı 30 araçlık açık/kapalı otopark 11 kat  2018 depren güçlendirmesi var. banka/sağlık kurumu ve alternatif ofis kullanımlarına uygun",
     "address": {
       "street": "123 Main Street",

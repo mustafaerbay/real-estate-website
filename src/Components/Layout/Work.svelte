@@ -1,54 +1,53 @@
-<script>
-// @ts-nocheck
+<script lang="ts">
 
-	import { Row } from '@sveltestrap/sveltestrap';
-	import { products, categories } from '../../app';
-	import Category from '$lib/Category.svelte';
+	import { Row } from "@sveltestrap/sveltestrap";
+	import { products, categories } from "../../app";
+	import Category from "$lib/Category.svelte";
 	const works = [
 		{
-			categories: ['webdesign', 'wordpress'],
-			imageSrc: '../../assets/images/works/1.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
+			categories: ["webdesign", "wordpress"],
+			imageSrc: "../../assets/images/works/1.jpg",
+			alt: "work-img",
+			title: "Project Title",
 		},
 		{
-			categories: ['work', 'webdesign', 'seo'],
-			imageSrc: '../../assets/images/works/2.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
+			categories: ["work", "webdesign", "seo"],
+			imageSrc: "../../assets/images/works/2.jpg",
+			alt: "work-img",
+			title: "Project Title",
 		},
 		{
-			categories: ['seo', 'wordpress'],
-			imageSrc: '../../assets/images/works/3.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
+			categories: ["seo", "wordpress"],
+			imageSrc: "../../assets/images/works/3.jpg",
+			alt: "work-img",
+			title: "Project Title",
 		},
 		{
-			categories: ['wordpress', 'work', 'webdesign'],
-			imageSrc: '../../assets/images/works/4.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
+			categories: ["wordpress", "work", "webdesign"],
+			imageSrc: "../../assets/images/works/4.jpg",
+			alt: "work-img",
+			title: "Project Title",
 		},
 		{
-			categories: ['seo', 'webdesign'],
-			imageSrc: '../../assets/images/works/5.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
+			categories: ["seo", "webdesign"],
+			imageSrc: "../../assets/images/works/5.jpg",
+			alt: "work-img",
+			title: "Project Title",
 		},
 		{
-			categories: ['devlopment', 'webdesign'],
-			imageSrc: '../../assets/images/works/6.jpg',
-			alt: 'work-img',
-			title: 'Project Title'
-		}
+			categories: ["devlopment", "webdesign"],
+			imageSrc: "../../assets/images/works/6.jpg",
+			alt: "work-img",
+			title: "Project Title",
+		},
 	];
-	let activeLink = 'all';
+	let activeLink = "all";
 	let selected_cat;
-	let selected_category_id = ['1', '2', '3', '4'];
+	let selected_category_id = ["1", "2", "3", "4"];
 
 	function cat_opt(category) {
-		activeLink = category.short_name
-		selected_cat = category.id
+		activeLink = category.short_name;
+		selected_cat = category.id;
 	}
 </script>
 
@@ -57,20 +56,28 @@
 		<Row class="row justify-content-center">
 			<div class="col-lg-12">
 				<div class="text-center">
-					<h2><span class="fw-bold">PORTFOLIO</span></h2>
+					<h2>
+						<span class="fw-bold"
+							><button><a href="/listings">PORTFOLIO</a></button
+							></span
+						>
+					</h2>
 					<p class="text-muted section-subtitle mx-auto mt-3">
-						It is a long established fact that a reader will be of a page when established fact
-						looking at its layout.
+						It is a long established fact that a reader will be of a
+						page when established fact looking at its layout.
 					</p>
 				</div>
 			</div>
 		</Row>
 		<div class="row mt-5">
-			<ul class="col list-unstyled list-inline text-uppercase work_menu mb-0" id="menu-filter">
+			<ul
+				class="col list-unstyled list-inline text-uppercase work_menu mb-0"
+				id="menu-filter"
+			>
 				<li class="list-inline-item">
 					<a
-						on:click={() => (activeLink = 'all')}
-						class={`${activeLink === 'all' ? 'active' : ''}`}
+						on:click={() => (activeLink = "all")}
+						class={`${activeLink === "all" ? "active" : ""}`}
 						href="#!">All</a
 					>
 				</li>
@@ -115,7 +122,7 @@
 					<li class="list-inline-item">
 						<a
 							on:click={() => cat_opt(Category)}
-							class={`${activeLink === Category.short_name ? 'active' : ''}`}
+							class={`${activeLink === Category.short_name ? "active" : ""}`}
 							href="#!">{Category.short_name}</a
 						>
 					</li>
@@ -125,20 +132,20 @@
 	</div>
 	<div class="container">
 		<div class="row work-filter mt-4">
-			{#each products as product }
-			<!-- {#each works as work (work.categories)} -->
+			{#each products as product}
+				<!-- {#each works as work (work.categories)} -->
 				<div
-					class={`col-lg-4 work_item ${!(selected_cat == product.category_id || activeLink == 'all') ? 'hide d-none' : ''}`}
+					class={`col-lg-4 work_item ${!(selected_cat == product.category_id || activeLink == "all") ? "hide d-none" : ""}`}
 				>
-				<!-- <div
+					<!-- <div
 					class={`col-lg-4 work_item ${!(work.categories.includes(activeLink) || activeLink == 'all') ? 'hide d-none' : ''}`}
 				> -->
-					<a href="{product.image_url}" class="img-zoom">
+					<a href={product.image_url} class="img-zoom">
 						<div class="work_box">
 							<div class="work_img">
 								<img
 									loading="lazy"
-									src="{product.image_url}"
+									src={product.image_url}
 									class="img-fluid d-block mx-auto rounded"
 									alt="work-img"
 									style="width: 800; height:533"

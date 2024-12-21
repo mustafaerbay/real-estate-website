@@ -1,27 +1,36 @@
-<script>
-// @ts-nocheck
+<script lang="ts">
+    // @ts-nocheck
 
-	import { Col, Container, Row } from "@sveltestrap/sveltestrap";
-	import TypeWriter from "../Components/TypeWriter.svelte";
-    import About from '../Components/Layout/About.svelte';
+    import { Col, Container, Row } from "@sveltestrap/sveltestrap";
+    import TypeWriter from "../Components/TypeWriter.svelte";
+    import About from "../Components/Layout/About.svelte";
     import Work from "../Components/Layout/Work.svelte";
     import Blog from "../Components/Layout/Blog.svelte";
+    import Sta from "../Components/Layout/Sta.svelte";
+
 </script>
 
-
-<section class="section header-bg-img h-100vh align-items-center d-flex clip-home" id="home">
+<section
+    class="section header-bg-img h-100vh align-items-center d-flex clip-home"
+    id="home"
+>
     <div class="bg-overlay"></div>
     <Container class="z-2">
         <Row class="justify-content-center">
             <Col lg="12">
                 <div class="text-center header-content mx-auto">
                     <!-- <h4 class="text-white first-title mb-4">Paradoks</h4> -->
-                <h1 class="header-name text-white text-capitalize mb-0">Paradoks Real Estate
+                    <h1 class="header-name text-white text-capitalize mb-0">
+                        Paradoks Real Estate
                         <TypeWriter />
                     </h1>
                     <!-- <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p> -->
                     <div class="mt-4 pt-2">
-                        <a href="#contact" class="btn btn-outline-white rounded-pill">Contact Us</a>
+                        <a
+                            href="#contact"
+                            class="btn btn-outline-white rounded-pill"
+                            >Contact Us</a
+                        >
                     </div>
                 </div>
             </Col>
@@ -34,6 +43,8 @@
     </div>
 </section>
 <!-- <About/> -->
- <slot></slot>
- <Blog></Blog>
- <Work></Work>
+<Sta />
+
+<slot></slot>
+<Blog></Blog>
+<Work></Work>

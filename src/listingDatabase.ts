@@ -1,32 +1,14 @@
-[
+
+export const listingsData: Property[] = [
     {
-        "id": "c180883d",
+        "id": "12345",
         "title": "Astoria Kiralik Kurumsal",
-        "type": "Apartment",
-        "status": "For Sale",
-        "is_highlighted": false,
-        "name": "astoria",
-        "category_id": 1,
-        "description_v2": [
-            "5500 m2 kapalı kullanım alanı",
-            "90.000 usd karşılığı tl kira rakamı",
-            "30 araçlık açık/kapalı otopark",
-            "11 kat",
-            "2018 depren güçlendirmesi var.",
-            "banka/sağlık kurumu ve alternatif ofis kullanımlarına uygun"
+        "description": [
+            "ANA PLAZADAN BAĞIMSIZ HER KAT 2500 M2 x 3 KAT TOPLAM 7500 M2 KULLANIM ALANI",
+            "TAM MÜSTAKİL 2 KATLI KAPALI OTOPARK ALANI TOPLAM 80 ARAÇ",
+            "110.000 USD KARŞILIĞI TL KİRA RAKAMI",
+            "KİRA + STOPAJ"
         ],
-        "description": "5500 m2 kapalı kullanım alanı 30 araçlık açık/kapalı otopark 11 kat  2018 depren güçlendirmesi var. banka/sağlık kurumu ve alternatif ofis kullanımlarına uygun",
-        "pricing": {
-            "price": 90000,
-            "currency": "USD",
-            "isNegotiable": false
-        },
-        "features": {
-            "bedrooms": 3,
-            "bathrooms": 2,
-            "squareFeet": 5500,
-            "pool": true
-        },
         "address": {
             "street": "123 Main Street",
             "city": "Istanbul",
@@ -34,10 +16,26 @@
             "postalCode": "34000",
             "country": "Turkey"
         },
-        "image_url": "images/listings/astoria/IMG-20241026-WA0104.webp",
-        "images_path": "images/listings/astoria",
-        "tags": [],
-        "long_description": "Listing for astoria",
+        "type": "Office",
+        "status": "For Rent",
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 5500,
+            "pool": true
+        },
+        "pricing": {
+            "price": 90000,
+            "currency": "USD",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "phone": "+90 555 123 4567",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
         "media": {
             "images": [
                 {
@@ -156,31 +154,45 @@
                     "title": "img-fluid d-block mx-auto rounded"
                 }
             ]
-        }
+        },
+        "listedDate": "2024-12-01"
     },
     {
-        "id": "2b4799e5",
-        "is_highlighted": false,
-        "title": "DARPHANE ARKASI BARBAROS PLAZA DA KİRALIK 7500 M2 KARE TAM MÜSTAKİL OFİS ALANI",
-        "category_id": 1,
+        "id": "12345",
+        "title": "BARBAROS PLAZA 7500 M2 KARE TAM MÜSTAKİL OFİS ALANI",
+        "description": [
+            "ANA PLAZADAN BAĞIMSIZ HER KAT 2500 M2 x 3 KAT TOPLAM 7500 M2 KULLANIM ALANI",
+            "TAM MÜSTAKİL 2 KATLI KAPALI OTOPARK ALANI TOPLAM 80 ARAÇ",
+            "110.000 USD KARŞILIĞI TL KİRA RAKAMI",
+            "KİRA + STOPAJ"
+        ],
+        "address": {
+            "street": "123 Main Street",
+            "city": "Istanbul",
+            "state": "Marmara",
+            "postalCode": "34000",
+            "country": "Turkey"
+        },
         "type": "Office",
         "status": "For Rent",
         "features": {
+            "floorCount": 2,
             "bedrooms": 3,
             "bathrooms": 2,
             "squareFeet": 7500,
             "pool": true
         },
         "pricing": {
-            "price": 90000,
+            "price": 250000,
             "currency": "USD",
             "isNegotiable": false
         },
-        "description": "barbaros listing",
-        "image_url": "images/listings/barbaros/IMG-20241026-WA0128.webp",
-        "images_path": "images/listings/barbaros",
-        "tags": [],
-        "long_description": "Listing for barbaros",
+        "agent": {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "phone": "+90 555 123 4567",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
         "media": {
             "images": [
                 {
@@ -279,6 +291,7 @@
                     "title": "img-fluid d-block mx-auto rounded"
                 }
             ]
-        }
+        },
+        "listedDate": "2024-12-01"
     }
 ]

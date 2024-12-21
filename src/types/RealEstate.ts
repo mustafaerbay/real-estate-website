@@ -16,6 +16,7 @@ export type Address = {
     Condo = "Condo",
     Townhouse = "Townhouse",
     Land = "Land",
+    Office = "Office"
   }
   
   // Enum for listing status
@@ -28,6 +29,7 @@ export type Address = {
   
   // Features of a property
   export type Features = {
+    floorCount: number;
     bedrooms: number;
     bathrooms: number;
     squareFeet?: number; // Optional for land or non-residential properties
@@ -68,7 +70,7 @@ export type Address = {
   export type Property = {
     id: string; // Unique identifier
     title: string;
-    description: string;
+    description: string[];
     address: Address;
     type: PropertyType;
     status: ListingStatus;
