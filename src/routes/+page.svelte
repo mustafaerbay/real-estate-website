@@ -4,6 +4,8 @@
 	import { Col, Container, Row } from "@sveltestrap/sveltestrap";
 	import TypeWriter from "../Components/TypeWriter.svelte";
     import About from '../Components/Layout/About.svelte';
+    import Work from "../Components/Layout/Work.svelte";
+    import Blog from "../Components/Layout/Blog.svelte";
 </script>
 
 
@@ -32,3 +34,6 @@
     </div>
 </section>
 <!-- <About/> -->
+ <slot></slot>
+ <Blog></Blog>
+ <Work></Work>
