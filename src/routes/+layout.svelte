@@ -13,6 +13,12 @@
     import Settings from "../Components/Layout/Settings.svelte";
     import Loader from "../Components/Layout/Loader.svelte";
     import ContactFormSidabar from "$lib/ContactForm_sidabar.svelte";
+    import Listings from "../Components/Layout/Listings.svelte";
+    /** @type {import('./$types').LayoutData} */
+    export let data;
+    console.log("dataLayout:",data.properties)
+    
+
 </script>
 
 <svelte:head>
@@ -41,6 +47,7 @@
 
     <title>Paradoks Real Estate</title>
     <meta name="description" content="Paradoks Real Estate | Home" />
+    
 </svelte:head>
 
 <!-- Loader -->
@@ -53,13 +60,16 @@
 <slot />
 
 <!-- START BLOG -->
-<Blog />
+<!-- <Blog /> -->
+<!-- <Listings {data}></Listings> -->
 <!-- START WORK -->
-<Work />
+<!-- <Work /> -->
+
+
 <!-- START CTA -->
 <Sta />
 <!-- START SERVICES -->
-<Services />
+<!-- <Services /> -->
 
 <!-- <ContactFormSidabar></ContactFormSidabar> -->
 

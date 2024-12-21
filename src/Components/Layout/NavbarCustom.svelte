@@ -71,7 +71,7 @@
 				<NavItem>
 					<a
 						class={`nav-link ${activeLink === 'home' ? 'active' : ''}`}
-						href="#home"
+						href="/"
 						on:click={() => (activeLink = 'home')}>Home</a
 					>
 				</NavItem>
@@ -88,6 +88,13 @@
 						class={`nav-link ${activeLink === 'blog' ? 'active' : ''}`}
 						href="#blog"
 						on:click={() => (activeLink = 'blog')}>Blog</a
+					>
+				</NavItem>
+				<NavItem>
+					<a
+						class={`nav-link ${activeLink === 'listings' ? 'active' : ''}`}
+						href="/listings"
+						on:click={() => (activeLink = 'listings')}>Listings</a
 					>
 				</NavItem>
 				<!-- <NavItem>
