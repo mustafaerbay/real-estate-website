@@ -1,16 +1,17 @@
 import { json } from '@sveltejs/kit';
-import fs from 'fs/promises';
-import path from 'path';
+// import fs from 'fs/promises';
+// import path from 'path';
 
 /** @type {import('./$types').LayoutLoad} */
 export async function load() {
   // Define the path to your properties JSON file
-  const filePath = path.resolve('static/data/properties.json');
-  console.log("filepath:",filePath)
+  // const filePath = path.resolve('static/data/properties.json');
+  // console.log("filepath:",filePath)
   try {
     // Read and parse the JSON file
-    const data = await fs.readFile(filePath, 'utf-8');
-    const properties = JSON.parse(data);
+    // const data = await fs.readFile(filePath, 'utf-8');
+    const properties = await fetch("https://www.paradoksgayrimenkul.com/data/properties.json")
+    // const properties = JSON.parse(data);
 
     // Return the properties as a JSON response
     // return json({ properties });
