@@ -15,13 +15,39 @@ export async function load() {
     // const properties = JSON.parse(data);
     // const properties = await response.json()
     const pr = listingsData
+    const filterItems = generateFilterItems(pr)
     // Return the properties as a JSON response
     // return json({ properties });
     return {
-        properties: pr
+      properties: pr,
+      filterOptions: filterItems
     }
   } catch (error) {
     console.log('Error loading properties:', error);
     return json({ error: 'Unable to load properties' }, { status: 500 });
   }
+}
+
+function generateFilterItems(listings) {
+  
+  const locations = [...new Set(listings.map(listing => listing.address.city))];
+  const types = [...new Set(listings.map(listing => listing.type))];
+  const statuses = [...new Set(listings.map(listing => listing.status))];
+
+  const prices = listings.map(listing => listing.pricing.price);
+  const areas = listings.map(listing => listing.features.squareFeet);
+
+  return {
+    locations, // Unique city names
+    types,     // Unique types (e.g., Office, Apartment)
+    statuses,  // Unique statuses (e.g., For Rent, For Sale)
+    priceRange: {
+      min: Math.min(...prices),
+      max: Math.max(...prices),
+    },
+    areaRange: {
+      min: Math.min(...areas),
+      max: Math.max(...areas),
+    },
+  };
 }

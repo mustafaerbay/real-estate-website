@@ -16,8 +16,8 @@
     import Listings from "../Components/Layout/Listings.svelte";
     /** @type {import('./$types').LayoutData} */
     export let data;
-    console.log("dataLayout:",data.properties)
-    
+    // console.log("dataLayout:",data.properties)
+    console.log("filterOptions:", data.filterOptions);
 
 </script>
 
@@ -47,8 +47,10 @@
 
     <title>Paradoks Real Estate</title>
     <meta name="description" content="Paradoks Real Estate | Home" />
-	<meta name="google-site-verification" content="l22pghUc_H4ExgSIqtQazg66YFNgQMW0Ii5d7mlZoJ0" />
-    
+    <meta
+        name="google-site-verification"
+        content="l22pghUc_H4ExgSIqtQazg66YFNgQMW0Ii5d7mlZoJ0"
+    />
 </svelte:head>
 
 <!-- Loader -->
@@ -65,7 +67,6 @@
 <!-- <Listings {data}></Listings> -->
 <!-- START WORK -->
 <!-- <Work /> -->
-
 
 <!-- START CTA -->
 <!-- START SERVICES -->

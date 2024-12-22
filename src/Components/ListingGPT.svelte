@@ -3,69 +3,73 @@
     import ImageCarousels from "./Carousels/ImageCarousels.svelte";
     import { company_details } from "../app";
     import { Button } from "@sveltestrap/sveltestrap";
+    import FilterComponent from "./FilterComponent.svelte";
 
     export let listings: Property[];
 </script>
 
 <div class="grid-container">
-    {#each listings as listing}
-        <div class="card">
-            <!-- <img src={listing.media.images[0].src} alt={listing.title} /> -->
-            <div>
-                <ImageCarousels images={listing.media.images}></ImageCarousels>
-            </div>
-            <div class="details">
-                <div class="title-container">
-                    <div class="title">
-                        <a href="/" class="title">{listing.title}</a>
+    {#if listings.length}
+        {#each listings as listing}
+            <div class="card">
+                <!-- <img src={listing.media.images[0].src} alt={listing.title} /> -->
+                <div>
+                    <ImageCarousels images={listing.media.images}
+                    ></ImageCarousels>
+                </div>
+                <div class="details">
+                    <div class="title-container">
+                        <div class="title">
+                            <a href="/" class="title">{listing.title}</a>
+                        </div>
+                        <div class="status">
+                            <p>{listing.status}</p>
+                        </div>
                     </div>
-                    <div class="status">
-                        <p>{listing.status}</p>
+                    <div class="price">
+                        {listing.pricing.price}
+                        {listing.pricing.currency}
                     </div>
-                </div>
-                <div class="price">
-                    {listing.pricing.price}
-                    {listing.pricing.currency}
-                </div>
-                <!-- <div class="description">{listing.description[0]}</div> -->
-                <div class="descriptions">
-                    {#each listing.description as item}
-                        <p>
-                            {item}
-                        </p>
-                    {/each}
-                </div>
-                <div class="type-area">
-                    {listing.type} | Area: {listing.features.squareFeet} sqft
-                </div>
-                <div class="location">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                    >
-                        <path
-                            d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5c-1.381 0-2.5-1.119-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5-1.119 2.5-2.5 2.5z"
-                        />
-                    </svg>
-                    {listing.address.city} | {listing.address.country}
-                </div>
-                <div class="actions">
-                    <!-- <Button outline color="success">Primary</Button> -->
-                    <a
-                        href={`tel:${company_details.phone}`}
-                        class="btn btn-primary">Call</a
-                    >
-                    <a
-                        href={`mailto:${company_details.email}`}
-                        class="btn btn-primary">Email</a
-                    >
-                    <a href={company_details.whatsapp} class="btn btn-primary"
-                        >Whatsapp</a
-                    >
-                    <!-- <div class="button">
+                    <!-- <div class="description">{listing.description[0]}</div> -->
+                    <div class="descriptions">
+                        {#each listing.description as item}
+                            <p>
+                                {item}
+                            </p>
+                        {/each}
+                    </div>
+                    <div class="type-area">
+                        {listing.type} | Area: {listing.features.squareFeet} sqft
+                    </div>
+                    <div class="location">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="16"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5c-1.381 0-2.5-1.119-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5-1.119 2.5-2.5 2.5z"
+                            />
+                        </svg>
+                        {listing.address.city} | {listing.address.country}
+                    </div>
+                    <div class="actions">
+                        <!-- <Button outline color="success">Primary</Button> -->
+                        <a
+                            href={`tel:${company_details.phone}`}
+                            class="btn btn-primary">Call</a
+                        >
+                        <a
+                            href={`mailto:${company_details.email}`}
+                            class="btn btn-primary">Email</a
+                        >
+                        <a
+                            href={company_details.whatsapp}
+                            class="btn btn-primary">Whatsapp</a
+                        >
+                        <!-- <div class="button">
                         <p>
                             <a href={`tel:${company_details.phone}`}>Call</a>
                         </p>
@@ -83,10 +87,13 @@
                             >
                         </p>
                     </div> -->
+                    </div>
                 </div>
             </div>
-        </div>
-    {/each}
+        {/each}
+    {:else}
+        <p>nothing to show with these filters</p>
+    {/if}
 </div>
 
 <style>

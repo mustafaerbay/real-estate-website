@@ -9,3 +9,13 @@ export const contact_info = writable({
     products: [],
     categories: []
 });
+
+export const Search = writable({
+    location: "",
+    type: "",
+    maxPrice: "",
+    minPrice: "",
+    minArea: "",
+    maxArea: "",
+    status: "",
+});

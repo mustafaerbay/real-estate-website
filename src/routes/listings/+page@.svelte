@@ -1,16 +1,49 @@
 <script lang="ts">
     import type { Property } from "@types";
 
-    import Blog from "../../Components/Layout/Blog.svelte";
-    import Listings from "../../Components/Layout/Listings.svelte";
-    import ListingDetails from "../../Components/ListingDetails.svelte";
     import ListingGpt from "../../Components/ListingGPT.svelte";
+    import FilterComponent from "../../Components/FilterComponent.svelte";
+    import { Search } from "../../store";
     /** @type {import('./$types').LayoutData} */
-    export let data: { properties: Property[] }; // Import your Property type here
+    export let data: { properties: Property[]; filterOptions }; // Import your Property type here
     let listing: Property;
     listing = data.properties[0];
     let listings = data.properties;
+    let filterOptions = data.filterOptions;
     // let property = data.properties[0]
+
+    let filters = {
+        location: "",
+        type: "",
+        minPrice: 0,
+        maxPrice: Infinity,
+        minArea: 0,
+        maxArea: Infinity,
+    };
+    let filteredListings = listings;
+    // console.log("filteredListings", filteredListings);
+
+    // console.log("storeFrompage:", get(Search));
+    // let SearchBind = "";
+    // console.log("SearchBind", SearchBind);
+
+    let results = [...listings];
+    function filter(Search) {
+        results = listings.filter(
+            (item) =>
+                (!Search.location || item.address.city == Search.location) &&
+                (!Search.type || item.type == Search.type) &&
+                (!Search.maxPrice || item.pricing.price <= Search.maxPrice) &&
+                (!Search.minPrice || item.pricing.price >= Search.minPrice) &&
+                (!Search.minArea ||
+                    item.features.squareFeet >= Search.minArea) &&
+                (!Search.maxArea ||
+                    item.features.squareFeet <= Search.maxArea) &&
+                (!Search.status || item.status == Search.status),
+        );
+    }
+
+    $: filter($Search);
 </script>
 
 <section class="section" id="contact">
@@ -18,7 +51,12 @@
         <div class="text-center">
             <h1>Portfolio</h1>
         </div>
-        <ListingGpt {listings}></ListingGpt>
+        <FilterComponent
+            statuses={filterOptions.statuses}
+            locations={filterOptions.locations}
+            types={filterOptions.types}
+        ></FilterComponent>
+        <ListingGpt listings={results}></ListingGpt>
     </div>
 </section>
 

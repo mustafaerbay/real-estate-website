@@ -168,7 +168,7 @@ export const listingsData: Property[] = [
         ],
         "address": {
             "street": "123 Main Street",
-            "city": "Istanbul",
+            "city": "Ankara",
             "state": "Marmara",
             "postalCode": "34000",
             "country": "Turkey"
