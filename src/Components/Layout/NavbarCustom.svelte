@@ -124,9 +124,9 @@
 				</NavItem> -->
 				<NavItem>
 					<a
-						class={`nav-link ${activeLink === "listings" ? "active" : ""}`}
-						href="/listings"
-						on:click={() => (activeLink = "listings")}>Listings</a
+						class={`nav-link ${activeLink === "portfolio" ? "active" : ""}`}
+						href="/portfolio"
+						on:click={() => (activeLink = "portfolio")}>Portfolio</a
 					>
 				</NavItem>
 				<!-- <NavItem>
