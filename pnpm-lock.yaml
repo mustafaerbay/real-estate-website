@@ -11,6 +11,9 @@ importers:
       '@sveltestrap/sveltestrap':
         specifier: ^6.2.7
         version: 6.2.7(svelte@5.0.0-next.244)
+      '@vercel/analytics':
+        specifier: ^1.4.1
+        version: 1.4.1(@sveltejs/kit@2.5.26(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0)))(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0)))(svelte@5.0.0-next.244)
     devDependencies:
       '@fontsource/fira-mono':
         specifier: ^5.0.0
@@ -564,6 +567,32 @@ packages:
   '@typescript-eslint/visitor-keys@8.4.0':
     resolution: {integrity: sha512-zTQD6WLNTre1hj5wp09nBIDiOc2U5r/qmzo7wxPn4ZgAjHql09EofqhF9WF+fZHzL5aCyaIpPcT2hyxl73kr9A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@vercel/analytics@1.4.1':
+    resolution: {integrity: sha512-ekpL4ReX2TH3LnrRZTUKjHHNpNy9S1I7QmS+g/RQXoSUQ8ienzosuX7T9djZ/s8zPhBx1mpHP/Rw5875N+zQIQ==}
+    peerDependencies:
+      '@remix-run/react': ^2
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   '@vitest/expect@2.0.5':
     resolution: {integrity: sha512-yHZtwuP7JZivj65Gxoi8upUN2OzHTi3zVfjwdpu2WrvCZPLwsJ2Ey5ILIPccoW23dd/zQBlJ4/dhi7DWNyXCpA==}
@@ -2344,6 +2373,11 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.4.0
       eslint-visitor-keys: 3.4.3
+
+  '@vercel/analytics@1.4.1(@sveltejs/kit@2.5.26(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0)))(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0)))(svelte@5.0.0-next.244)':
+    optionalDependencies:
+      '@sveltejs/kit': 2.5.26(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0)))(svelte@5.0.0-next.244)(vite@5.4.3(sass-embedded@1.78.0))
+      svelte: 5.0.0-next.244
 
   '@vitest/expect@2.0.5':
     dependencies:
