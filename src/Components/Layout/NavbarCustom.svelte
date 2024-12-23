@@ -90,7 +90,7 @@
 					<NavLink href="/">Home</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href="/listings">Listings</NavLink>
+					<NavLink href="/portfolio">Listings</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink href="#contact">Contact</NavLink>

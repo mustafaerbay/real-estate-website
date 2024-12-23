@@ -58,7 +58,7 @@
 				<div class="text-center">
 					<h2>
 						<span class="fw-bold"
-							><button><a href="/listings">PORTFOLIO</a></button
+							><button><a href="/portfolio">PORTFOLIO</a></button
 							></span
 						>
 					</h2>
