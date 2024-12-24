@@ -1,0 +1,100 @@
+[
+  {
+    "id": "12345",
+    "title": "Modern 3-Bedroom Apartment",
+    "description_v2": [
+      "ANA PLAZADAN BAĞIMSIZ HER KAT 2500 M2 x 3 KAT TOPLAM 7500 M2 KULLANIM ALANI",
+      "TAM MÜSTAKİL 2 KATLI KAPALI OTOPARK ALANI TOPLAM 80 ARAÇ",
+      "110.000 USD KARŞILIĞI TL KİRA RAKAMI",
+      "KİRA + STOPAJ"
+    ],
+    "description": "5500 m2 kapalı kullanım alanı 30 araçlık açık/kapalı otopark 11 kat  2018 depren güçlendirmesi var. banka/sağlık kurumu ve alternatif ofis kullanımlarına uygun",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Istanbul",
+      "state": "Marmara",
+      "postalCode": "34000",
+      "country": "Turkey"
+    },
+    "type": "Apartment",
+    "status": "For Sale",
+    "features": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 5500,
+      "pool": true
+    },
+    "pricing": {
+      "price": 90000,
+      "currency": "USD",
+      "isNegotiable": false
+    },
+    "agent": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+90 555 123 4567",
+      "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+    },
+    "media": {
+      "images": [
+        {
+          "alt": "img alt",
+          "title": "img title",
+          "src": "images/foto-01.webp"
+        },
+        {
+          "alt": "img alt",
+          "title": "img title",
+          "src": "images/foto-02.webp"
+        }
+      ]
+    },
+    "listedDate": "2024-12-01"
+  },
+  {
+    "id": "12345",
+    "title": "Modern 4-Bedroom Apartment",
+    "description": "Spacious apartment in the heart of the city with stunning views.",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Istanbul",
+      "state": "Marmara",
+      "postalCode": "34000",
+      "country": "Turkey"
+    },
+    "type": "Apartment",
+    "status": "For Sale",
+    "features": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFeet": 1500,
+      "pool": true
+    },
+    "pricing": {
+      "price": 250000,
+      "currency": "USD",
+      "isNegotiable": false
+    },
+    "agent": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+90 555 123 4567",
+      "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+    },
+    "media": {
+      "images": [
+        {
+          "alt": "img alt",
+          "title": "img title",
+          "src": "images/foto-01.webp"
+        },
+        {
+          "alt": "img alt",
+          "title": "img title",
+          "src": "images/foto-02.webp"
+        }
+      ]
+    },
+    "listedDate": "2024-12-01"
+  }
+]
