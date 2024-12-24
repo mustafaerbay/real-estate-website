@@ -1,9 +1,9 @@
 <script lang="ts">
     import type { Property } from "@types";
-    import ImageCarousels from "./Carousels/ImageCarousels.svelte";
     import { company_details } from "../app";
-    import { Button } from "@sveltestrap/sveltestrap";
+    import { Button, Col } from "@sveltestrap/sveltestrap";
     import FilterComponent from "./FilterComponent.svelte";
+    import ImageCarousels2 from "./Carousels/ImageCarousels2.svelte";
 
     export let listings: Property[];
 </script>
@@ -12,11 +12,8 @@
     {#if listings.length}
         {#each listings as listing}
             <div class="card">
-                <!-- <img src={listing.media.images[0].src} alt={listing.title} /> -->
-                <div>
-                    <ImageCarousels images={listing.media.images}
-                    ></ImageCarousels>
-                </div>
+                <ImageCarousels2 images={listing.media.images}/>
+
                 <div class="details">
                     <div class="title-container">
                         <div class="title">
