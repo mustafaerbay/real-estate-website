@@ -46,16 +46,16 @@
 				isSticky = false;
 			}
 
-			for (const a of navLinks) {
-				if (
-					isElementInViewport(
-						document.querySelector(a.getAttribute("href")),
-					)
-				) {
-					activeLink = a.getAttribute("href").slice(1);
-					break; // Assuming only one link should be active at a time
-				}
-			}
+			// for (const a of navLinks) {
+			// 	if (
+			// 		isElementInViewport(
+			// 			document.querySelector(a.getAttribute("href")),
+			// 		)
+			// 	) {
+			// 		activeLink = a.getAttribute("href").slice(1);
+			// 		break; // Assuming only one link should be active at a time
+			// 	}
+			// }
 		};
 
 		window.addEventListener("scroll", handleScroll);

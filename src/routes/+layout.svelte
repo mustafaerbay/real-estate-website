@@ -1,5 +1,4 @@
 <script>
-    // @ts-nocheck
     import { company_details } from "../app";
     import NavbarCustom from "../Components/Layout/NavbarCustom.svelte";
     import About from "../Components/Layout/About.svelte";
@@ -17,8 +16,11 @@
     /** @type {import('./$types').LayoutData} */
     export let data;
     // console.log("dataLayout:",data.properties)
-    console.log("filterOptions:", data.filterOptions);
+    // console.log("filterOptions:", data.filterOptions);
+    let filterItems = data.filterOptions
+    // console.log("filterItems:",filterItems?.types)
 
+    console.log("data.PortfolioStatus_layout",data.portfolioStatus)
 </script>
 
 <svelte:head>

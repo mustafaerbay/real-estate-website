@@ -1570,7 +1570,7 @@ ul.pattern .color6 {
 }
 
 .services-boxes {
-  border: 1px solid var(--bs-border-color);
+  border: 2px solid var(--bs-border-color);
 }
 
 .services-boxes .services-boxes-icon i {

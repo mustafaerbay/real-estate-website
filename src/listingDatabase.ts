@@ -1,3 +1,5 @@
+// import type { Property } from "./types/RealEstate";
+
 
 export const listingsData: Property[] = [
     {

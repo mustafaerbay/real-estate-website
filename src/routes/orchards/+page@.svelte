@@ -9,23 +9,14 @@
     let listing: Property;
     listing = data.properties[0];
     let listings = data.properties;
-    let filterOptions = data.filterOptions;
-    // let property = data.properties[0]
 
-    let filters = {
-        location: "",
-        type: "",
-        minPrice: 0,
-        maxPrice: Infinity,
-        minArea: 0,
-        maxArea: Infinity,
-    };
-    let filteredListings = listings;
     // console.log("filteredListings", filteredListings);
 
     // console.log("storeFrompage:", get(Search));
     // let SearchBind = "";
     // console.log("SearchBind", SearchBind);
+
+    $Search = { type: 'Orchards'};
     let results = [...listings];
     function filter(Search) {
         results = listings.filter(
@@ -45,38 +36,17 @@
     $: filter($Search);
 </script>
 
-<section class="section" id="portfolio">
+
+<section class="section" id="condo">
     <div class="container">
         <div class="text-center">
-            <h1>Portfolio</h1>
+            <h1>Orchards</h1>
         </div>
-        <FilterComponent
+        <!-- <FilterComponent
             statuses={filterOptions.statuses}
             locations={filterOptions.locations}
             types={filterOptions.types}
-        ></FilterComponent>
+        ></FilterComponent> -->
         <ListingGpt listings={results}></ListingGpt>
     </div>
 </section>
-
-<!-- <div class="m-2 p-2 lg:p-4 lg:m-4">
-    <div class="flex grid grid-cols-12 grid-rows-3 gap-4 lg:grid-cols-6">
-        {#each data.properties as listing}
-            <div class="grid-cols-2 lg:grid-cols-12">
-                <ListingDetails {listing}></ListingDetails>
-            </div>
-        {/each}
-    </div>
-</div> -->
-
-<style>
-    .title {
-        margin-right: 12rem;
-        margin-left: 12rem;
-        margin-top: 8rem;
-        justify-content: center;
-        justify-items: center;
-        border-color: aquamarine;
-        border-style: groove;
-    }
-</style>
