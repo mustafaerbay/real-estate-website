@@ -82,6 +82,15 @@ export type Address = {
     lastUpdated?: string; // Optional, ISO 8601 Date format
   };
   
+  export type PortfolioStatus = {
+    isOfficeExist: boolean
+    isCondoExist: boolean,
+    isApartmentExist: boolean,
+    isHouseExist: boolean,
+    isOrchardsExist: boolean,
+    isAgricalturalExist: boolean,
+    isYourAssetExist: boolean
+  }
   // JSON data type for a collection of properties
   export type PropertyCollection = Property[];
   

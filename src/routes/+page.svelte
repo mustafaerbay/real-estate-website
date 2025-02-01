@@ -8,6 +8,9 @@
     import Blog from "../Components/Layout/Blog.svelte";
     import Sta from "../Components/Layout/Sta.svelte";
     import Contact from "../Components/Layout/Contact.svelte";
+    import Services from "../Components/Layout/Services.svelte";
+    /** @type {import('./$types').LayoutData} */
+    export let data;
 </script>
 
 <section
@@ -43,9 +46,10 @@
     </div>
 </section>
 <!-- <About/> -->
-<Sta />
+<Services {data}></Services>
+<!-- <Sta /> -->
 
 <slot></slot>
-<Blog></Blog>
-<Work></Work>
+<!-- <Blog></Blog> -->
+<!-- <Work></Work> -->
 <Contact {company_details} />

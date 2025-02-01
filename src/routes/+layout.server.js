@@ -18,9 +18,60 @@ export async function load() {
     const filterItems = generateFilterItems(pr)
     // Return the properties as a JSON response
     // return json({ properties });
+
+    // const portfolieee = (() => ({
+    //   isOfficeExist: filterItems.types.includes('Office'),
+    //   isCondoExist: filterItems.types.includes('Condo'),
+    //   isApartmentExist: filterItems.types.includes('Apartment'),
+    //   isHouseExist: filterItems.types.includes('House'),
+    //   isOrchardsExist: filterItems.types.includes('Orchards'),
+    //   isAgricalturalExist: filterItems.types.includes('Agricultural'),
+    //   isYourAssetExist: filterItems.types.includes('YourAsset')
+    // }));
+
+    const portfolioStatus = ({
+      isOfficeExist: filterItems.types.includes('Office'),
+      isCondoExist: false,
+      isApartmentExist: false,
+      isHouseExist: false,
+      isOrchardsExist: false,
+      isAgricalturalExist: false,
+      isYourAssetExist: false
+  })
+
+    // PortfolioStatus.set({
+    //   isOfficeExist: filterItems.types.includes('Office'),
+    //   isCondoExist: filterItems.types.includes('Condo'),
+    //   isApartmentExist: filterItems.types.includes('Apartment'),
+    //   isHouseExist: filterItems.types.includes('House'),
+    //   isOrchardsExist: filterItems.types.includes('Orchards'),
+    //   isAgricalturalExist: filterItems.types.includes('Agricultural'),
+    //   isYourAssetExist: filterItems.types.includes('YourAsset')
+    // });
+    // console.log("PortfolioStatus_layout_server",get(PortfolioStatus))
+    console.log("portfolioStatus_layout_server",portfolioStatus)
+
+    // PortfolioStatus.update(status => {
+    //   const updatedStatus = {
+    //     isOfficeExist: filterItems.types.includes('Office'),
+    //     isCondoExist: filterItems.types.includes('Condo'),
+    //     isApartmentExist: filterItems.types.includes('Apartment'),
+    //     isHouseExist: filterItems.types.includes('House'),
+    //     isOrchardsExist: filterItems.types.includes('Orchards'),
+    //     isAgricalturalExist: filterItems.types.includes('Agricultural'),
+    //     isYourAssetExist: filterItems.types.includes('YourAsset')
+    //   };
+   
+    //   console.log('PortfolioStatus Updated:', updatedStatus);
+   
+    //   return updatedStatus;
+    // });
+
+
     return {
       properties: pr,
-      filterOptions: filterItems
+      filterOptions: filterItems,
+      portfolioStatus: portfolioStatus
     }
   } catch (error) {
     console.log('Error loading properties:', error);
@@ -51,3 +102,4 @@ function generateFilterItems(listings) {
     },
   };
 }
+

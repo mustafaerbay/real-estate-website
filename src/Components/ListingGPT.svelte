@@ -1,22 +1,37 @@
 <script lang="ts">
     import type { Property } from "@types";
-    import ImageCarousels from "./Carousels/ImageCarousels.svelte";
     import { company_details } from "../app";
-    import { Button } from "@sveltestrap/sveltestrap";
+    import { Button, Col } from "@sveltestrap/sveltestrap";
     import FilterComponent from "./FilterComponent.svelte";
+    import ImageCarousels2 from "./Carousels/ImageCarousels2.svelte";
+    import { goto } from "$app/navigation";
+    import { Search } from "../store";
+    import { page } from "$app/stores";
 
     export let listings: Property[];
+
+    const template = {
+        type: "",
+        minPrice: "",
+        maxPrice: "",
+        minArea: "",
+        maxArea: "",
+        status: "",
+        location: "",
+    };
+    function noListing() {
+        // $Search = { type: ""};
+        Search.set(template);
+        goto("/portfolio");
+    }
 </script>
 
 <div class="grid-container">
     {#if listings.length}
         {#each listings as listing}
             <div class="card">
-                <!-- <img src={listing.media.images[0].src} alt={listing.title} /> -->
-                <div>
-                    <ImageCarousels images={listing.media.images}
-                    ></ImageCarousels>
-                </div>
+                <ImageCarousels2 images={listing.media.images} />
+
                 <div class="details">
                     <div class="title-container">
                         <div class="title">
@@ -93,6 +108,19 @@
         {/each}
     {:else}
         <p>nothing to show with these filters</p>
+        <!-- <button type="button" href="/portfolio"  class="submitBnt btn btn-primary"
+            >Go back to Portfolio page</button
+        > -->
+        <!-- <Button color="primary">
+            >Go back to Portfolio page</Button> -->
+        {#if $page.url.pathname !== "/portfolio"}
+            <Button
+                class="uppercase"
+                color="primary"
+                on:click={() => noListing()}
+                >Go to Portfolio page to check all listings</Button
+            >
+        {/if}
     {/if}
 </div>
 
