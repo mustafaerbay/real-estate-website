@@ -4,7 +4,7 @@
 export const listingsData: Property[] = [
     {
         "id": "12345",
-        "title": "Astoria Kiralik Kurumsal",
+        "title": "ASTORİA YANI, TAM MÜSTAKİL KOMPLE KİRALIK BİNA",
         "description": [
             "ANA PLAZADAN BAĞIMSIZ HER KAT 2500 M2 x 3 KAT TOPLAM 7500 M2 KULLANIM ALANI",
             "TAM MÜSTAKİL 2 KATLI KAPALI OTOPARK ALANI TOPLAM 80 ARAÇ",
@@ -41,12 +41,12 @@ export const listingsData: Property[] = [
         "media": {
             "images": [
                 {
-                    "src": "images/listings/astoria/IMG-20241026-WA0104.webp",
+                    "src": "images/listings/astoria/IMG-20241026-WA0112.webp",
                     "alt": "gayrimenkul fotografi",
                     "title": "img-fluid d-block mx-auto rounded"
                 },
                 {
-                    "src": "images/listings/astoria/IMG-20241026-WA0112.webp",
+                    "src": "images/listings/astoria/IMG-20241026-WA0104.webp",
                     "alt": "gayrimenkul fotografi",
                     "title": "img-fluid d-block mx-auto rounded"
                 },
@@ -132,11 +132,6 @@ export const listingsData: Property[] = [
                 },
                 {
                     "src": "images/listings/astoria/IMG-20241026-WA0096.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "title": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/astoria/IMG-20241026-WA0110.webp",
                     "alt": "gayrimenkul fotografi",
                     "title": "img-fluid d-block mx-auto rounded"
                 },
