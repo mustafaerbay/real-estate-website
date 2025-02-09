@@ -31,12 +31,12 @@ export async function load() {
 
     const portfolioStatus = ({
       isOfficeExist: filterItems.types.includes('Office'),
-      isCondoExist: false,
-      isApartmentExist: false,
-      isHouseExist: false,
-      isOrchardsExist: false,
-      isAgricalturalExist: false,
-      isYourAssetExist: false
+      isCondoExist: filterItems.types.includes('Condo'),
+      isApartmentExist: filterItems.types.includes('Apartment'),
+      isHouseExist: filterItems.types.includes('House'),
+      isOrchardsExist: filterItems.types.includes('Land'),
+      isAgricalturalExist: filterItems.types.includes('Land'),
+      isYourAssetExist: filterItems.types.includes('YourAsset'),
   })
 
     // PortfolioStatus.set({
