@@ -182,7 +182,7 @@ export const listingsData: Property[] = [
             "pool": true
         },
         "pricing": {
-            "price": 250000,
+            "price": 110000,
             "currency": "USD",
             "isNegotiable": false
         },
