@@ -17,10 +17,10 @@
     export let data;
     // console.log("dataLayout:",data.properties)
     // console.log("filterOptions:", data.filterOptions);
-    let filterItems = data.filterOptions
+    let filterItems = data.filterOptions;
     // console.log("filterItems:",filterItems?.types)
 
-    console.log("data.PortfolioStatus_layout",data.portfolioStatus)
+    console.log("data.PortfolioStatus_layout", data.portfolioStatus);
 </script>
 
 <svelte:head>
@@ -53,6 +53,21 @@
         name="google-site-verification"
         content="l22pghUc_H4ExgSIqtQazg66YFNgQMW0Ii5d7mlZoJ0"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16848088701"
+    >
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "AW-16848088701");
+    </script>
 </svelte:head>
 
 <!-- Loader -->

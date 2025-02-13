@@ -16,7 +16,8 @@ export type Address = {
     Condo = "Condo",
     Townhouse = "Townhouse",
     Land = "Land",
-    Office = "Office"
+    Office = "Office",
+    YoutAsset = "YourAsset"
   }
   
   // Enum for listing status
