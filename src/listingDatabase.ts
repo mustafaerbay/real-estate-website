@@ -486,5 +486,569 @@ export const listingsData: Property[] = [
                 }
             ]
         }
+    },
+    {
+        "id": "78aaf396",
+        "title": "İŞMER_Q_2_667M2_1.133.900TL",
+        "description": ["İŞMER_Q_2_667M2_1.133.900TL"],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 667,
+            "pool": true
+        },
+        "pricing": {
+            "price": 90000,
+            "currency": "USD",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.52(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.51(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.52.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.51(3).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.52(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/WhatsAppImage2025-02-14at11.33.51.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_2_667M2_1.133.900TL/ORTAKALANTERAS.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_2_667M2_1.133.900TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_2_667M2_1.133.900TL",
+        "listedDate": "2025-15-02"
+    },
+    {
+        "id": "7dbc5107",
+        "title": "İŞMER_Q_6_333M2_532.800TL",
+        "description": ["İŞMER_Q_6_333M2_532.800TL "],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 333,
+            "pool": true
+        },
+        "pricing": {
+            "price": 532800,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_6_333M2_532.800TL/WhatsAppImage2025-02-14at11.33.58.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_6_333M2_532.800TL/WhatsAppImage2025-02-14at11.33.59(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_6_333M2_532.800TL/WhatsAppImage2025-02-14at11.33.58(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_6_333M2_532.800TL/WhatsAppImage2025-02-14at11.33.57(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_6_333M2_532.800TL/WhatsAppImage2025-02-14at11.33.57.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_6_333M2_532.800TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_6_333M2_532.800TL",
+        "listedDate": "2025-15-02"
+    },
+    {
+        "id": "e78c0326",
+        "title": "İŞMER_Q_380M2_2800TL",
+        "description": ["İŞMER_Q_380M2_2800TL "],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 380,
+            "pool": true
+        },
+        "pricing": {
+            "price": 2800,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.06(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.05(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.07.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.04(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.06.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.01.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.06(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.06(3).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.05(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.07(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.03.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.02(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.01(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.02.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.03(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.01(3).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.02(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.09.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.01(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.05.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.04.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.08.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_380M2_2800TL/WhatsAppImage2025-02-14at11.34.09(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_380M2_2800TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_380M2_2800TL",
+        "listedDate": "2025-15-02"
+    },
+    {
+        "id": "442ea813",
+        "title": "İŞMER_Q_5_285M2_456.000TL",
+        "description": ["İŞMER_Q_5_285M2_456.000TL "],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 285,
+            "pool": true
+        },
+        "pricing": {
+            "price": 456000,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_5_285M2_456.000TL/WhatsAppImage2025-02-14at11.33.59(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_5_285M2_456.000TL/WhatsAppImage2025-02-14at11.33.59.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_5_285M2_456.000TL/WhatsAppImage2025-02-14at11.34.00.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_5_285M2_456.000TL/WhatsAppImage2025-02-14at11.34.00(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_5_285M2_456.000TL/WhatsAppImage2025-02-14at11.34.00(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_5_285M2_456.000TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_5_285M2_456.000TL",
+        "listedDate": "2025-15-02"
+    },
+    {
+        "id": "1c611441",
+        "title": "QUASAR'DA METROYA YAKIN 443 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "Quasar'da metroya yakın, konforlu her şey dahil, geniş kiralık ofis...",
+            "Detaylı bilgi için iletişime geçin.",
+            "İstanbul Şişli, Fulya Mahallesi’nde bulunan Quasar ofis katlarında yerleşime hazır konforlu",
+            "kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "Alan: Brüt 443 m2/Net 290 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım,",
+            "Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum",
+            "Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
+            "Fiyat: 1.700 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 4 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır."
+        ],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 443,
+            "pool": false
+        },
+        "pricing": {
+            "price": 753100,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.54.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.55.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.54(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.55(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.54(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/ORTAKALANTERAS.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1_443M2_753.100TL/WhatsAppImage2025-02-14at11.33.55(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_1_443M2_753.100TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_1_443M2_753.100TL",
+        "listedDate": "2025-15-02"
+    },
+    {
+        "id": "0396d42e",
+        "title": "İŞMER_Q_1110M2_1887000TL",
+        "description": ["İŞMER_Q_1110M2_1887000TL "],
+        "address": {
+            "street": "",
+            "city": "Istanbul",
+            "state": "",
+            "postalCode": "34000",
+            "country": "Turkiye"
+        },
+        "type": "",
+        "status": "",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 1110,
+            "pool": true
+        },
+        "pricing": {
+            "price": 1887000,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.54.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.52(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.55.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.51(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.52.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.51(3).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.52(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.51(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.54(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.51.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.55(1).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.54(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/ORTAKALANTERAS.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/İŞMER_Q_1110M2_1887000TL/WhatsAppImage2025-02-14at11.33.55(2).webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/İŞMER_Q_1110M2_1887000TL",
+        "tags": [],
+        "long_description": "Listing for İŞMER_Q_1110M2_1887000TL",
+        "listedDate": "2025-15-02"
     }
 ]
