@@ -65,9 +65,11 @@
                     <!-- <div class="description">{listing.description[0]}</div> -->
                     <div class="descriptions">
                         {#each listing.description as item}
-                            <p>
+                            <!-- <p> -->
+                               <li>
                                 {item}
-                            </p>
+                               </li> 
+                            <!-- </p> -->
                         {/each}
                     </div>
                     
