@@ -489,8 +489,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "78aaf396",
-        "title": "İŞMER_Q_2_667M2_1.133.900TL",
-        "description": ["İŞMER_Q_2_667M2_1.133.900TL"],
+        "title": "QUASAR'DA METROYA YAKIN 667 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "Alan: Brüt 667 m2/Net 437 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım, Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
+            "Fiyat: 1.700 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 8 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır.",
+            "Enterprise 1 ve 2 birleştirilip iki mahal arasındaki 60 m2 kat bahçesi de ayrıca firmalar tarafından kiralanabilir durumdadır."
+        ],
         "address": {
             "street": "",
             "city": "Istanbul",
@@ -565,8 +573,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "7dbc5107",
-        "title": "İŞMER_Q_6_333M2_532.800TL",
-        "description": ["İŞMER_Q_6_333M2_532.800TL "],
+        "title": "QUASAR'DA METROYA YAKIN 333 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "İstanbul Şişli, Fulya Mahallesi'nde bulunan Quasar ofis katlarında yerleşime hazır konforlu kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "Alan: Brüt 333 m2/Net 187 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım, Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Daikin Marka 4 Borulu Fancoil(FCU) Üniteleri",
+            "Fiyat: 1.600 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 4 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır."
+        ],
         "address": {
             "street": "",
             "city": "Istanbul",
@@ -631,8 +647,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "e78c0326",
-        "title": "İŞMER_Q_380M2_2800TL",
-        "description": ["İŞMER_Q_380M2_2800TL "],
+        "title": "QUASAR'DA METROYA YAKIN 380 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "İstanbul Şişli, Fulya Mahallesi'nde bulunan Quasar ofis katlarında yerleşime hazır konforlu kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "Alan: Brüt 380 m2/Net 247 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım,Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
+            "Fiyat: 2.800 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 4 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır."
+        ],
         "address": {
             "street": "",
             "city": "Istanbul",
@@ -651,7 +675,7 @@ export const listingsData: Property[] = [
             "pool": true
         },
         "pricing": {
-            "price": 2800,
+            "price": 1064000,
             "currency": "TRY",
             "isNegotiable": false
         },
@@ -787,8 +811,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "442ea813",
-        "title": "İŞMER_Q_5_285M2_456.000TL",
-        "description": ["İŞMER_Q_5_285M2_456.000TL "],
+        "title": "QUASAR'DA METROYA YAKIN 285 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "İstanbul Şişli, Fulya Mahallesi'nde bulunan Quasar ofis katlarında yerleşime hazır konforlu kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "Alan: Brüt 285 m2/Net 187 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, BakımOnarım, Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Daikin Marka 4 Borulu Fancoil(FCU) Üniteleri",
+            "Fiyat: 1.600 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 4 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır."
+        ],
         "address": {
             "street": "",
             "city": "Istanbul",
@@ -855,14 +887,9 @@ export const listingsData: Property[] = [
         "id": "1c611441",
         "title": "QUASAR'DA METROYA YAKIN 443 M2 GENİŞ KİRALIK OFİS",
         "description": [
-            "Quasar'da metroya yakın, konforlu her şey dahil, geniş kiralık ofis...",
-            "Detaylı bilgi için iletişime geçin.",
-            "İstanbul Şişli, Fulya Mahallesi’nde bulunan Quasar ofis katlarında yerleşime hazır konforlu",
-            "kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "İstanbul Şişli, Fulya Mahallesi'nde bulunan Quasar ofis katlarında yerleşime hazır konforlu kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
             "Alan: Brüt 443 m2/Net 290 m2",
-            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım,",
-            "Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum",
-            "Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım,Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
             "Fiyat: 1.700 TL /m2/ay + KDV",
             "Teslim Durumu: Şap Beton",
             "Otopark: 4 araç",
@@ -942,8 +969,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "0396d42e",
-        "title": "İŞMER_Q_1110M2_1887000TL",
-        "description": ["İŞMER_Q_1110M2_1887000TL "],
+        "title": "QUASAR'DA METROYA YAKIN 1110 M2 GENİŞ KİRALIK OFİS",
+        "description": [
+            "İstanbul Şişli, Fulya Mahallesi'nde bulunan Quasar ofis katlarında yerleşime hazır konforlu kiralık ofis. M2 metro ve metrobüs hattına 18 dakika yürüme mesafesinde merkezi ofis.",
+            "Alan: Brüt 1110 m2/Net 721,5 m2",
+            "Üyelik Bedeli: (Alan Kullanım Bedeli (Kira) + Opex (Aidat, Temizlik, Çay/kahve, Bakım-Onarım,Enerji, İnternet, Isıtma-Soğutma, İlaçlama, Peyzaj, Toplantı Odası) + Aspen Marka, Kalsiyum Sülfat Yükseltilmiş Döşeme Sistemi ve Mitsubishi Heavy Marka VRV Üniteleri",
+            "Fiyat: 17.000 TL /m2/ay + KDV",
+            "Teslim Durumu: Şap Beton",
+            "Otopark: 4 araç",
+            "Offismekan 1. Katta 18 saat/hafta ücretsiz toplantı odası hakkı tanınacaktır."
+        ],
         "address": {
             "street": "",
             "city": "Istanbul",
