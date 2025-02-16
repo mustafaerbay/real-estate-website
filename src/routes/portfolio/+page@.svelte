@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { Property } from "@types";
-
+    import { Button } from "@sveltestrap/sveltestrap";
+    import { fade, fly, slide, scale } from "svelte/transition";
     import ListingGpt from "../../Components/ListingGPT.svelte";
     import FilterComponent from "../../Components/FilterComponent.svelte";
     import { Search } from "../../store";
@@ -41,7 +42,14 @@
                 (!Search.status || item.status == Search.status),
         );
     }
-
+    let open = false;
+    function openFilter() {
+        if (open) {
+            open = false;
+        } else {
+            open = true;
+        }
+    }
     $: filter($Search);
 </script>
 
@@ -50,11 +58,26 @@
         <div class="text-center">
             <h1>Portfolio</h1>
         </div>
-        <FilterComponent
-            statuses={filterOptions.statuses}
-            locations={filterOptions.locations}
-            types={filterOptions.types}
-        ></FilterComponent>
+
+        <Button
+            id="openFilter"
+            color="primary"
+            size="sm"
+            class="button"
+            on:click={openFilter}>Filter</Button
+        >
+
+        {#if open}
+            <div in:fly={{ y: 20, duration: 300 }} out:fly={{ y: 20, duration: 300 }}>
+                <!-- content here -->
+                <FilterComponent
+                    statuses={filterOptions.statuses}
+                    locations={filterOptions.locations}
+                    types={filterOptions.types}
+                ></FilterComponent>
+            </div>
+        {/if}
+
         <ListingGpt listings={results}></ListingGpt>
     </div>
 </section>
@@ -78,5 +101,24 @@
         justify-items: center;
         border-color: aquamarine;
         border-style: groove;
+    }
+
+    .button {
+        flex: 1;
+        padding: 4px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: var(--bs-primary);
+        /* background-color: #f8f9fa; */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        font-size: 16px;
+    }
+
+    .button:hover {
+        background-color: #e0e0e0;
+        color: var(--bs-primary);
     }
 </style>

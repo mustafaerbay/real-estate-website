@@ -7,7 +7,7 @@
     import { goto } from "$app/navigation";
     import { Search } from "../store";
     import { page } from "$app/stores";
-
+    import { Hr, P } from 'flowbite-svelte';
     export let listings: Property[];
 
     const template = {
@@ -33,6 +33,9 @@
                 <ImageCarousels2 images={listing.media.images} />
 
                 <div class="details">
+                    <div class="price">
+                        {listing.pricing.price} {listing.pricing.currency}
+                    </div>
                     <div class="title-container">
                         <div class="title">
                             <a href="/" class="title">{listing.title}</a>
@@ -41,22 +44,8 @@
                             <p>{listing.status}</p>
                         </div>
                     </div>
-                    <div class="price">
-                        {listing.pricing.price}
-                        {listing.pricing.currency}
-                    </div>
-                    <!-- <div class="description">{listing.description[0]}</div> -->
-                    <div class="descriptions">
-                        {#each listing.description as item}
-                            <p>
-                                {item}
-                            </p>
-                        {/each}
-                    </div>
-                    <div class="type-area">
-                        {listing.type} | Area: {listing.features.squareFeet} sqft
-                    </div>
                     <div class="location">
+                        {listing.type} | {listing.features.squareFeet} sqft |
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             height="16"
@@ -68,21 +57,36 @@
                                 d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5c-1.381 0-2.5-1.119-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5-1.119 2.5-2.5 2.5z"
                             />
                         </svg>
-                        {listing.address.city} | {listing.address.country}
+                        {listing.address.city}/{listing.address.country}
+                        
                     </div>
-                    <div class="actions">
+                    <div class="type-area">
+                        -------------------
+                    </div>
+                    <!-- <div class="description">{listing.description[0]}</div> -->
+                    <div class="descriptions">
+                        {#each listing.description as item}
+                            <!-- <p> -->
+                               <li>
+                                {item}
+                               </li> 
+                            <!-- </p> -->
+                        {/each}
+                    </div>
+                    
+                    <div class="actions p-2">
                         <!-- <Button outline color="success">Primary</Button> -->
                         <a
                             href={`tel:${company_details.phone}`}
-                            class="btn btn-primary">Call</a
+                            class="btn btn-primary button">Call</a
                         >
                         <a
                             href={`mailto:${company_details.email}`}
-                            class="btn btn-primary">Email</a
+                            class="btn btn-primary button">Email</a
                         >
                         <a
                             href={company_details.whatsapp}
-                            class="btn btn-primary">Whatsapp</a
+                            class="btn btn-primary button">Whatsapp</a
                         >
                         <!-- <div class="button">
                         <p>
@@ -240,17 +244,20 @@
 
     .button {
         flex: 1;
-        padding: 8px;
+        padding: 4px;
         text-align: center;
         border: 1px solid #ddd;
         border-radius: 4px;
-        background-color: #f8f9fa;
-        color: #333;
+        background-color: var(--bs-primary);
+        /* background-color: #f8f9fa; */
+        color: white;
         cursor: pointer;
         transition: background-color 0.2s;
+        font-size: 16px;
     }
 
     .button:hover {
         background-color: #e0e0e0;
+        color: var(--bs-primary)
     }
 </style>
