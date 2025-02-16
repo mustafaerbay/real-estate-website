@@ -1,8 +1,7 @@
 <script lang="ts">
     import type { Property } from "@types";
-    import { AccordionItem, Accordion } from "flowbite-svelte";
     import { Button } from "@sveltestrap/sveltestrap";
-
+    import { fade, fly, slide, scale } from "svelte/transition";
     import ListingGpt from "../../Components/ListingGPT.svelte";
     import FilterComponent from "../../Components/FilterComponent.svelte";
     import { Search } from "../../store";
@@ -69,12 +68,14 @@
         >
 
         {#if open}
-            <!-- content here -->
-            <FilterComponent
-                statuses={filterOptions.statuses}
-                locations={filterOptions.locations}
-                types={filterOptions.types}
-            ></FilterComponent>
+            <div in:fly={{ y: 20, duration: 300 }} out:fly={{ y: 20, duration: 300 }}>
+                <!-- content here -->
+                <FilterComponent
+                    statuses={filterOptions.statuses}
+                    locations={filterOptions.locations}
+                    types={filterOptions.types}
+                ></FilterComponent>
+            </div>
         {/if}
 
         <ListingGpt listings={results}></ListingGpt>
