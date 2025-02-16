@@ -21,7 +21,7 @@ export const listingsData: Property[] = [
             "country": "Turkey"
         },
         "type": "Office",
-        "status": "For Rent",
+        "status": "Rent",
         "features": {
             "floorCount": 11,
             "bedrooms": 3,
@@ -173,7 +173,7 @@ export const listingsData: Property[] = [
             "country": "Turkey"
         },
         "type": "Office",
-        "status": "For Rent",
+        "status": "Rent",
         "features": {
             "floorCount": 2,
             "bedrooms": 3,
@@ -313,7 +313,7 @@ export const listingsData: Property[] = [
             "country": "Turkey"
         },
         "type": "Condo",
-        "status": "For Rent",
+        "status": "Rent",
         "features": {
             "floorCount": 15,
             "bedrooms": 3,
@@ -498,8 +498,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
@@ -509,8 +509,8 @@ export const listingsData: Property[] = [
             "pool": true
         },
         "pricing": {
-            "price": 90000,
-            "currency": "USD",
+            "price": 1133900,
+            "currency": "TL",
             "isNegotiable": false
         },
         "agent": {
@@ -574,8 +574,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
@@ -640,8 +640,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
@@ -796,8 +796,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
@@ -875,8 +875,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
@@ -951,8 +951,8 @@ export const listingsData: Property[] = [
             "postalCode": "34000",
             "country": "Turkiye"
         },
-        "type": "",
-        "status": "",
+        "type": "Office",
+        "status": "Rent",
         "is_highlighted": false,
         "features": {
             "floorCount": 11,
