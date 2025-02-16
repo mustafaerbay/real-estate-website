@@ -45,6 +45,7 @@
                         </div>
                     </div>
                     <div class="location">
+                        {listing.type} | {listing.features.squareFeet} sqft |
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             height="16"
@@ -56,8 +57,8 @@
                                 d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5c-1.381 0-2.5-1.119-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5-1.119 2.5-2.5 2.5z"
                             />
                         </svg>
-                        {listing.address.city}/{listing.address.country} | 
-                        {listing.type} | {listing.features.squareFeet} sqft
+                        {listing.address.city}/{listing.address.country}
+                        
                     </div>
                     <div class="type-area">
                         -------------------
