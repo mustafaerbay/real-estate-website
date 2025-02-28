@@ -3,6 +3,201 @@
 
 export const listingsData: Property[] = [
     {
+        "id": "2f3a0ad4",
+        "title": "FULYA SELENİUM 34 REZİDANS DA. 3+1 YENİLENMİŞ SORUNSUZ DAİRE",
+        "description": [
+            "REZİDANS İMKANLARINI AİLE ORTAMINDA BİR BİNA DA YAŞAMAK İSTİYORSANIZ FULYA' DA BULUNAN SELENİUM 34 DOĞRU ADRES.",
+            "SELENİUM 34' DE BULUNAN SOSYAL ALANLAR; SPOR SALONU, KADIN/ERKEK SAUNA, AÇIK HAVUZ, KAPALI HAVUZ, TENİS KORTU, PLATES ODASI, BİLARDO ODASI, TOPLANTI SALONU.",
+            "15 NCİ KATTA YER ALAN PORTFÖYÜMÜZ İÇİ KOMPLE YENİLENMİŞ BAKIMLI BİR DAİRE, PORTFÖYÜMÜZÜN KİRA RAKAMINI DEĞERLENDİRİRKEN LÜTFEN BU DURUMU GÖZ ÖNÜNDE BULUNDURUN.",
+            "TÜM ODAKLARINDA GARDOLAP BULUNMAKTADIR,",
+            "İLANIMIZ YANILTICI OLMAMASI İÇİN 3+1 OLARAK DÜZENLENDİ. DAİRE DE AYRICA ÇAMAŞIR ODASI BULUNMAKTADIR. (9 VE 10 NUNCU SIRADAKİ FOTOĞRAFLAR.)",
+            "İLANIMIZDA YER ALAN GÖRSELLER DAİRE AİTTİR. KAT BİLGİSİ DOĞRUDUR.",
+            "PORTFÖYDE YETKİLİ OFİSİZ."
+        ],
+        "address": {
+            "street": "123 Main Street",
+            "city": "Istanbul",
+            "state": "Marmara",
+            "postalCode": "34000",
+            "country": "Turkey"
+        },
+        "type": "Condo",
+        "status": "Rent",
+        "is_highlighted": true,
+        "features": {
+            "floorCount": 15,
+            "bedrooms": 3,
+            "bathrooms": 3,
+            "squareFeet": 165,
+            "pool": true
+        },
+        "pricing": {
+            "price": 150000,
+            "currency": "TL",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "john.doe@example.com",
+            "phone": "+90 555 123 4567",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0124.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0098.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0108.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0104.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0112.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0113.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0105.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0109.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0125.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0099.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0102.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0114.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0122.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0118.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0119.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0123.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0115.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0103.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0116.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0100.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0120.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0121.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0101.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0117.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0110.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0106.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0096.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0097.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0107.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/selenium/IMG-20250205-WA0111.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        }
+    },
+    {
         "id": "12345",
         "title": "ASTORİA YANI, TAM MÜSTAKİL KOMPLE KİRALIK BİNA",
         "description": [
@@ -293,200 +488,7 @@ export const listingsData: Property[] = [
         },
         "listedDate": "2024-12-01"
     },
-    {
-        "id": "6",
-        "title": "FULYA SELENİUM 34 REZİDANS DA. 3+1 YENİLENMİŞ SORUNSUZ DAİRE",
-        "description": [
-            "REZİDANS İMKANLARINI AİLE ORTAMINDA BİR BİNA DA YAŞAMAK İSTİYORSANIZ FULYA' DA BULUNAN SELENİUM 34 DOĞRU ADRES.",
-            "SELENİUM 34' DE BULUNAN SOSYAL ALANLAR; SPOR SALONU, KADIN/ERKEK SAUNA, AÇIK HAVUZ, KAPALI HAVUZ, TENİS KORTU, PLATES ODASI, BİLARDO ODASI, TOPLANTI SALONU.",
-            "15 NCİ KATTA YER ALAN PORTFÖYÜMÜZ İÇİ KOMPLE YENİLENMİŞ BAKIMLI BİR DAİRE, PORTFÖYÜMÜZÜN KİRA RAKAMINI DEĞERLENDİRİRKEN LÜTFEN BU DURUMU GÖZ ÖNÜNDE BULUNDURUN.",
-            "TÜM ODAKLARINDA GARDOLAP BULUNMAKTADIR,",
-            "İLANIMIZ YANILTICI OLMAMASI İÇİN 3+1 OLARAK DÜZENLENDİ. DAİRE DE AYRICA ÇAMAŞIR ODASI BULUNMAKTADIR. (9 VE 10 NUNCU SIRADAKİ FOTOĞRAFLAR.)",
-            "İLANIMIZDA YER ALAN GÖRSELLER DAİRE AİTTİR. KAT BİLGİSİ DOĞRUDUR.",
-            "PORTFÖYDE YETKİLİ OFİSİZ."
-        ],
-        "address": {
-            "street": "123 Main Street",
-            "city": "Istanbul",
-            "state": "Marmara",
-            "postalCode": "34000",
-            "country": "Turkey"
-        },
-        "type": "Condo",
-        "status": "Rent",
-        "features": {
-            "floorCount": 15,
-            "bedrooms": 3,
-            "bathrooms": 3,
-            "squareFeet": 165,
-            "pool": true
-        },
-        "pricing": {
-            "price": 150000,
-            "currency": "TL",
-            "isNegotiable": false
-        },
-        "agent": {
-            "name": "Suleyman Baratan",
-            "email": "john.doe@example.com",
-            "phone": "+90 555 123 4567",
-            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
-        },
-        "media": {
-            "images": [
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0124.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0098.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0108.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0104.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0112.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0113.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0105.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0109.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0125.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0099.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0102.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0114.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0122.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0118.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0119.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0123.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0115.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0103.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0116.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0100.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0120.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0121.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0101.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0117.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0110.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0106.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0096.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0097.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0107.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/selenium/IMG-20250205-WA0111.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                }
-            ]
-        }
-    },
+    
     {
         "id": "78aaf396",
         "title": "QUASAR'DA METROYA YAKIN 667 M2 GENİŞ KİRALIK OFİS",

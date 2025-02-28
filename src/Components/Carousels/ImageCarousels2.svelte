@@ -6,8 +6,7 @@
     let selectedImageIndex = 0;
 
     function nextImage() {
-        selectedImageIndex =
-            (selectedImageIndex + 1) % images.length;
+        selectedImageIndex = (selectedImageIndex + 1) % images.length;
     }
 
     function previousImage() {
@@ -29,10 +28,9 @@
                 alt="Main car view"
                 class="main-image"
             />
-            <button class="nav-button next" on:click={nextImage}
-                >&gt;</button
-            >
+            <button class="nav-button next" on:click={nextImage}>&gt;</button>
         </div>
+        <p>{selectedImageIndex + 1}/{images.length} Image</p>
         <div class="thumbnails">
             {#each images as image, i}
                 <img
@@ -93,11 +91,47 @@
         right: 10px;
     }
 
-    .thumbnails {
+    /* .thumbnails {
         display: flex;
         gap: 10px;
         overflow-x: auto;
         padding: 10px 0;
+    } */
+
+    .thumbnails {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+        grid-auto-flow: row;
+        /* grid-auto-flow: column; */
+        grid-auto-columns: minmax(75px, 1fr);
+        gap: 10px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* overflow-x: auto;
+        overflow-y: hidden; */
+        padding: 10px 0;
+        max-height: calc(
+            2 * 150px + 10px
+        ); /* Adjust based on your thumbnail height */
+        scrollbar-width: thin;
+    }
+
+    /* For modern browsers */
+    .thumbnails::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .thumbnails::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    /* For thumbnails inside the grid */
+    .thumbnails .thumbnail-item {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .thumbnail {

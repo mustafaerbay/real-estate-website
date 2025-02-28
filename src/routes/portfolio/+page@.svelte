@@ -56,7 +56,7 @@
 <section class="section" id="portfolio">
     <div class="container">
         <div class="text-center">
-            <h1>Portfolio</h1>
+            <h1>Portfolio ({results.length})</h1>
         </div>
 
         <Button
