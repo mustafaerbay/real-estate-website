@@ -49,6 +49,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltestrap/sveltestrap": "^6.2.7",
-		"@vercel/analytics": "^1.4.1"
+		"@vercel/analytics": "^1.4.1",
+		"svelte-number-format": "^0.1.3"
 	}
 }

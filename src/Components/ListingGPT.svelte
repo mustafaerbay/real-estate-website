@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { NumberFormat } from "svelte-number-format";
     import type { Property } from "@types";
     import { company_details } from "../app";
     import { Button, Col } from "@sveltestrap/sveltestrap";
@@ -7,7 +8,7 @@
     import { goto } from "$app/navigation";
     import { Search } from "../store";
     import { page } from "$app/stores";
-    import { Hr, P } from 'flowbite-svelte';
+    import { Hr, P } from "flowbite-svelte";
     export let listings: Property[];
 
     const template = {
@@ -24,6 +25,20 @@
         Search.set(template);
         goto("/portfolio");
     }
+
+    function formatNumberWithCommas(number: number): string {
+        // Convert the number to a string
+        const numberString: string = number.toString();
+
+        // Split by decimal point (if any)
+        const parts: string[] = numberString.split(".");
+
+        // Format the integer part with commas
+        parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+        // Join back with decimal part if it exists
+        return parts.length > 1 ? parts.join(".") : parts[0];
+    }
 </script>
 
 <div class="grid-container">
@@ -34,7 +49,8 @@
 
                 <div class="details">
                     <div class="price">
-                        {listing.pricing.price} {listing.pricing.currency}
+                        {formatNumberWithCommas(listing.pricing.price)}
+                        {listing.pricing.currency}
                     </div>
                     <div class="title-container">
                         <div class="title">
@@ -58,22 +74,19 @@
                             />
                         </svg>
                         {listing.address.city}/{listing.address.country}
-                        
                     </div>
-                    <div class="type-area">
-                        -------------------
-                    </div>
+                    <div class="type-area">-------------------</div>
                     <!-- <div class="description">{listing.description[0]}</div> -->
                     <div class="descriptions">
                         {#each listing.description as item}
                             <!-- <p> -->
-                               <li>
+                            <li>
                                 {item}
-                               </li> 
+                            </li>
                             <!-- </p> -->
                         {/each}
                     </div>
-                    
+
                     <div class="actions p-2">
                         <!-- <Button outline color="success">Primary</Button> -->
                         <a
@@ -258,6 +271,6 @@
 
     .button:hover {
         background-color: #e0e0e0;
-        color: var(--bs-primary)
+        color: var(--bs-primary);
     }
 </style>

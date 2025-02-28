@@ -1088,8 +1088,14 @@ export const listingsData: Property[] = [
     },
     {
         "id": "8699e36f",
-        "title": "QUAZAR_PENTHOUSE_İKİNCİ_EL",
-        "description":[
+        "title": "QUAZAR PENTHOUSE KIRALIK",
+        "description": [
+            "Brüt: 587 M2",
+            "Net: 350 M2",
+            "Oda Sayısı: 6+1 , 3 banyo, 1 tuvalet, 1 giyinme odası",
+            "Kat Sayısı: 39. kat",
+            "Bina Yaşı: 5-10 arası",
+            "Konum: No:76 Fulya Mahallesi Quasar Tower, Fulya, Büyükdere Cd., 34394 Şişli/İstanbul,Türkiye",
             "Akıllı ev sistemleri, 24 saat güvenlik,",
             "kapalı otopark, misafir otoparkı, spor salonu, sauna, yüzme havuzu."
         ],
@@ -1194,19 +1200,19 @@ export const listingsData: Property[] = [
         "id": "473e02db",
         "title": "ŞİŞLİ MERKEZDE 46 ODALI OTEL",
         "description": [
-        "M2 parsel üzerinde 3 bodrum. Zemin, asma kat, 7 normal kat, çatı katı olmak üzere toplam 11 kattan oluşmaktadır.",
-        "Bodrum 3’de kazan dairesi, su deposu, personel,",
-        "Bodrum 2’de 2 adet spa odası,",
-        "Bodrum 1’de kahvaltı salonu, mutfak ve soğuk hava deposu,",
-        "Zemin, giriş ve lobi olarak projelendirilmiştir.",
-        "Asma katta 2 oda ve back ofis bulunmaktadır.",
-        "Isıtma ve soğutma sistemleri VRV ile çalışmaktadır.",
-        "Odalardaki aydınlatma kartlı sisteme sahiptir, odalara kartla giriş sistemi mevcuttur.",
-        "1, 2, 3, 4, 5, 6 ve 7 . Katlarda 3 ön 3 arka olmak üzere 6’şar oda bulunmaktadır.",
-        "Çatı Katı’nda 2 teraslı oda mevcut olmakla birlikte toplam 46 oda mevcuttur. Ayrıca ek yataklarda bulunmaktadır.",
-        "-1, -2, -3 ve Zemin Kat 145 M2, Asma Kat 110 M2,",
-        "7 Normal Kat 155 M2, Çatı Katı 115 M2’den oluşmaktadır.",
-        "İskan ve Turizm belgesi alınmış bulunmakta, ve işletme ruhsatı vardır."],
+            "M2 parsel üzerinde 3 bodrum. Zemin, asma kat, 7 normal kat, çatı katı olmak üzere toplam 11 kattan oluşmaktadır.",
+            "Bodrum 3’de kazan dairesi, su deposu, personel,",
+            "Bodrum 2’de 2 adet spa odası,",
+            "Bodrum 1’de kahvaltı salonu, mutfak ve soğuk hava deposu,",
+            "Zemin, giriş ve lobi olarak projelendirilmiştir.",
+            "Asma katta 2 oda ve back ofis bulunmaktadır.",
+            "Isıtma ve soğutma sistemleri VRV ile çalışmaktadır.",
+            "Odalardaki aydınlatma kartlı sisteme sahiptir, odalara kartla giriş sistemi mevcuttur.",
+            "1, 2, 3, 4, 5, 6 ve 7 . Katlarda 3 ön 3 arka olmak üzere 6’şar oda bulunmaktadır.",
+            "Çatı Katı’nda 2 teraslı oda mevcut olmakla birlikte toplam 46 oda mevcuttur. Ayrıca ek yataklarda bulunmaktadır.",
+            "-1, -2, -3 ve Zemin Kat 145 M2, Asma Kat 110 M2,",
+            "7 Normal Kat 155 M2, Çatı Katı 115 M2’den oluşmaktadır.",
+            "İskan ve Turizm belgesi alınmış bulunmakta, ve işletme ruhsatı vardır."],
         "address": {
             "street": "Ergenekon mah. Dolapdere cad. No: 128/1",
             "city": "Istanbul",
@@ -1366,8 +1372,16 @@ export const listingsData: Property[] = [
     },
     {
         "id": "028b8d6d",
-        "title": "LEVENT_SATILIK_VİLLA",
-        "description": ["LEVENT SATILIK VİLLA"],
+        "title": "LEVENT SATILIK VİLLA",
+        "description": [
+            "LEVENT SATILIK VİLLA",
+            "Brüt: 1000 M2 kapalı alan + 200 M2 bahçe",
+            "Net: 980 M2 + 180 M2 bahçe",
+            "Oda Sayısı: 6+1",
+            "Kat Sayısı: 3",
+            "Bina Yaşı: Yeni Bina",
+            "Konum: Levent, Sülünlü Sok. No:10, 34330 Beşiktaş/İstanbul, Türkiye"
+        ],
         "address": {
             "street": "Levent, Sülünlü Sok. No:10, 34330 Beşiktaş/İstanbul, Türkiye",
             "city": "Istanbul",
@@ -1417,8 +1431,14 @@ export const listingsData: Property[] = [
     },
     {
         "id": "5e895b74",
-        "title": "QUAZAR_PENTHOUSE_PROJEDEN",
+        "title": "QUAZAR PENTHOUSE PROJEDEN",
         "description": [
+            "Brüt: 587 m2",
+            "Net: 350 m2",
+            "Oda Sayısı: 6+1 , 3 banyo, 1 tuvalet, 1 giyinme odası",
+            "Kat Sayısı: 39. kat",
+            "Bina Yaşı: 5-10 arası",
+            "Konum: No:76 Fulya Mahallesi Quasar Tower, Fulya, Büyükdere Cd., 34394 Şişli/İstanbul,Türkiye",
             "Akıllı ev sistemleri, 24 saat güvenlik, kapalı otopark, misafir otoparkı, spor salonu, sauna, yüzme havuzu."
         ],
         "address": {
@@ -1521,7 +1541,15 @@ export const listingsData: Property[] = [
     {
         "id": "cc4e7d5f",
         "title": "MEDİCO 2 SATILIK VİLLA",
-        "description": ["MEDİCO 2 SATILIK VİLLA"],
+        "description": [
+            "MEDİCO 2 SATILIK VİLLA",
+            "Brüt: 450 m2",
+            "Net: 400 m2",
+            "Oda Sayısı: 6 oda, 2 salon",
+            "Kat Sayısı: 4",
+            "Bina Yaşı: 26",
+            "Konum: İtri sok. Balmumcu, İstanbul, Turkiye"
+        ],
         "address": {
             "street": "İtri sok. Balmumcu, İstanbul",
             "city": "Istanbul",
@@ -1697,7 +1725,11 @@ export const listingsData: Property[] = [
     {
         "id": "247a26db",
         "title": "LEVENT SEKOYA PLAZA İKİNCİ KAT",
-        "description":[
+        "description": [
+            "Brüt: 860 m2",
+            "Net: 850 m2",
+            "Kat Sayısı: İkinci Kat",
+            "Konum: Harman 1 Sok., 8, İstanbul, Şişli, Esentepe Mah.",
             "Yönetici odaları ayrılmış açık ofis. Toplantı odaları mevcuttur. Kapalı otopark ve güvenlik hizmetleri bulunmaktadır. Metroya yürüme mesafesi.",
             "14.000 dolar kuru üzerinden hesaplanmış olup; kiralama gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır."
         ],
@@ -1862,9 +1894,14 @@ export const listingsData: Property[] = [
         "id": "2e3a0ad4",
         "title": "LEVENT SEKOYA PLAZA GİRİŞ KAT",
         "description": [
+            "Brüt: 380 m2",
+            "Net: 370 m2",
+            "Kira Bedeli: 508.200 TL*",
+            "Kat Sayısı: Giriş kat",
+            "Konum: Harman 1 Sok., 8, İstanbul, Şişli, Esentepe Mah.",
             "Yönetici odaları ayrılmış açık ofis. Toplantı odaları mevcuttur. Kapalı otopark ve güvenlik hizmetleri bulunmaktadır. Metroya yürüme mesafesi.",
             "*14.000 dolar kuru üzerinden hesaplanmış olup; kiralama gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır."
-    ],
+        ],
         "address": {
             "street": "Harman 1 Sok., 8, İstanbul, Şişli, Esentepe Mah.",
             "city": "Istanbul",
@@ -2028,9 +2065,95 @@ export const listingsData: Property[] = [
         "listedDate": "2025-19-02"
     },
     {
-        "id": "3bc5f00b",
-        "title": "BELLE VUE SATILIK-KİRALIK TİCARİ ALAN",
+        "id": "3bc5f01b",
+        "title": "BELLE VUE SATILIK TİCARİ ALAN",
         "description": [
+            "Brüt: 5500 m2",
+            "Net: 5485 m2",
+            "Bina Yaşı: 5-10 arası",
+            "Konum: Nisbetiye, Aydın Sokağı No:9, 34340 Beşiktaş/İstanbul",
+            "***Fiyata KDV dahil değildir.",
+            "Tavan yüksekliği 5 metredir. Teras alanı 350 M2’dir.",
+            "*Satış Fiyatı 20.000.000 (yirmi milyon) dolar olup; güncel kur üzerinden hesaplanmıştır. Satış gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır.",
+            "**Kira bedeli 125.000 (yüz yirmi beş bin) dolar olup; güncel kur üzerinden hesaplanmıştır. Kiralama gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır.",
+        ],
+        "address": {
+            "street": "Nisbetiye, Aydın Sokağı No:9, 34340 Beşiktaş/İstanbul",
+            "city": "Istanbul",
+            "state": "Besiktas",
+            "postalCode": "34340",
+            "country": "Turkiye"
+        },
+        "type": "Office",
+        "status": "Sale",
+        "is_highlighted": false,
+        "features": {
+            "floorCount": 11,
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFeet": 5500,
+            "pool": true
+        },
+        "pricing": {
+            "price": 726200000,
+            "currency": "TRY",
+            "isNegotiable": false
+        },
+        "agent": {
+            "name": "Suleyman Baratan",
+            "email": "sbaratan@paradoksgayrimenkul.com",
+            "phone": "+905052083876",
+            "profilePictureUrl": "https://example.com/agents/john_doe.jpg"
+        },
+        "media": {
+            "images": [
+
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/12658f57-b1d4-4d24-9190-882494b7d9a9.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/a1fb89be-7b32-4e1c-94ab-bec4fd29f4e7.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/2a367f11-a062-48b4-a5f5-56f9ed5a3ffc.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/5596e44d-bb0f-442c-a2dc-1c5f676389b1.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/803f4b84-a2ab-42b6-97b4-80f55baa8beb.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                },
+                {
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/4376d491-e6b0-4db8-8dae-462a74183b1d.webp",
+                    "alt": "gayrimenkul fotografi",
+                    "class": "img-fluid d-block mx-auto rounded"
+                }
+            ]
+        },
+        "images_path": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN",
+        "tags": [],
+        "long_description": "Listing for BELLE_VUE_5500M2_TİCARİ_ALAN",
+        "listedDate": "2025-19-02"
+    },
+    {
+        "id": "3bc5f00b",
+        "title": "BELLE VUE SATILIK TİCARİ ALAN",
+        "description": [
+            "Brüt: 5500 m2",
+            "Net: 5485 m2",
+            "Bina Yaşı: 5-10 arası",
+            "Konum: Nisbetiye, Aydın Sokağı No:9, 34340 Beşiktaş/İstanbul",
+            "***Fiyata KDV dahil değildir.",
             "Tavan yüksekliği 5 metredir. Teras alanı 350 M2’dir.",
             "*Satış Fiyatı 20.000.000 (yirmi milyon) dolar olup; güncel kur üzerinden hesaplanmıştır. Satış gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır.",
             "**Kira bedeli 125.000 (yüz yirmi beş bin) dolar olup; güncel kur üzerinden hesaplanmıştır. Kiralama gerçekleşeceği durumda güncel döviz kuru üzerinden hesaplama yapılacaktır.",
@@ -2065,13 +2188,9 @@ export const listingsData: Property[] = [
         },
         "media": {
             "images": [
+
                 {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/5f731dba-8f9d-4ea4-8fe6-5c5421613f1d.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/015eb180-f2eb-4c62-b452-2f50f8c6746c.webp",
+                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/4376d491-e6b0-4db8-8dae-462a74183b1d.webp",
                     "alt": "gayrimenkul fotografi",
                     "class": "img-fluid d-block mx-auto rounded"
                 },
@@ -2081,47 +2200,7 @@ export const listingsData: Property[] = [
                     "class": "img-fluid d-block mx-auto rounded"
                 },
                 {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/c88dec0a-060b-49dd-9ff3-7fdcbbef512e.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/b6ee1b85-164f-4e87-b204-4dc8642e0247.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/8c5c956f-c5e7-4115-bac0-328b5c0f3de6.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/122b4554-1d68-47aa-acdc-ff28f51a739a.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/beb8fedc-1122-4b35-b2b3-60357844755d.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/592a0935-04d0-4110-9692-28e99e90da43.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/59c333bc-fb16-4dc9-b185-16457b3f6566.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
                     "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/2a367f11-a062-48b4-a5f5-56f9ed5a3ffc.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/2e97b417-0a58-4cdc-a3b8-663ac54e9123.webp",
                     "alt": "gayrimenkul fotografi",
                     "class": "img-fluid d-block mx-auto rounded"
                 },
@@ -2131,122 +2210,12 @@ export const listingsData: Property[] = [
                     "class": "img-fluid d-block mx-auto rounded"
                 },
                 {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/30b797b8-965e-4fd6-8edf-2093521a0741.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/750e67f2-e968-44d7-886c-d4eaff99e561.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/468d344d-2e8f-4ca7-b694-8a9a0480d0a0.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/b6ad1c60-4c4c-4a4d-b80d-bb71a879b735.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/20827163-198e-4149-a22f-277385d37a81.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
                     "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/803f4b84-a2ab-42b6-97b4-80f55baa8beb.webp",
                     "alt": "gayrimenkul fotografi",
                     "class": "img-fluid d-block mx-auto rounded"
                 },
                 {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/e3bc41c7-7008-4a18-a7db-e7d3d1809341.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/96728002-589d-4035-b502-476b63bf6daf.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/058501f5-e219-4401-b179-8aa846db33ec.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/bf38e56f-bac4-4330-94af-779ca59f26d5.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/d5a9b3a4-d81d-489c-80c7-bdb61fdbc0ea.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/b403e79b-96f4-40cf-925a-f003faf43341.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/8493ab0e-69db-4352-b57f-4139e6d80b3c.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/e2b19517-4f5e-4cb5-9753-c7c9304f42f9.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/4376d491-e6b0-4db8-8dae-462a74183b1d.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/c8d32fc3-9508-4ac4-9166-f4fae9cdae9c.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/e74e2df1-9851-4e2c-abbb-e1bf2e9da85b.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/9267a071-be9a-4ff6-b6b3-bff871ab4786.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/bd0bcfd4-39ce-4e85-a29e-54ec31c6e9e7.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/ff0bb015-9191-41c1-a6e1-3575fa5ad0bc.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
                     "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/12658f57-b1d4-4d24-9190-882494b7d9a9.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/1706532e-7960-4869-ad63-687d7a3b0816.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/2a94bb56-da9f-4e94-8ff5-4d9220222164.webp",
-                    "alt": "gayrimenkul fotografi",
-                    "class": "img-fluid d-block mx-auto rounded"
-                },
-                {
-                    "src": "images/listings/BELLE_VUE_5500M2_TİCARİ_ALAN/f5fd9174-209f-45d6-a0f6-219308d4165c.webp",
                     "alt": "gayrimenkul fotografi",
                     "class": "img-fluid d-block mx-auto rounded"
                 }
@@ -2259,9 +2228,8 @@ export const listingsData: Property[] = [
     },
     {
         "id": "fd6800ae",
-        "title": "BEBEK_SATILIK_YALI_KATI",
+        "title": "BEBEK SATILIK YALI KATI",
         "description": [
-            "BEBEK_SATILIK_YALI_KATI listing",
             "3 oda, 2 salon, 3 banyo",
             "435 M2 yalı katı + 85 M2 teras"
         ],
@@ -2421,6 +2389,11 @@ export const listingsData: Property[] = [
         "id": "a402e261",
         "title": "AKARETLER-B1 BLOK NO 7",
         "description": [
+            "Brüt: 145.03 M2",
+            "Net: 135.03 M2",
+            "Oda Sayısı: 1 oda, 1 salon",
+            "Kat Sayısı: Dubleks (ara kat + çatı katı)",
+            "Konum: Süleyman Seba Cad., Akaretler, İstanbul.",
             "Saha güvenlik hizmetleri (7/24)",
             "Saha peyzaj bitki bakım - onarım ve bahçıvan hizmetleri",
             "Teknik hizmet giderleri (Asansör, ısıtma - soğutma ortak tesisat vb. bakım onarımlar)",

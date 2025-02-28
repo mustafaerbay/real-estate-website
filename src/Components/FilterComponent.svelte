@@ -87,16 +87,7 @@
 </script>
 
 <div class="filter-container">
-    <div class="filter-item">
-        <Button
-            id="resetFilter"
-            on:click={resetFilter}
-            color="primary"
-            size="sm"
-            >Reset
-        </Button>
-        <!-- <Button></Button> -->
-    </div>
+    
     <div class="filter-item">
         <label for="location">Location</label>
         <select
@@ -172,6 +163,17 @@
             on:input={updatemaxArea}
             placeholder="e.g., 2000"
         />
+    </div>
+    <div class="filter-item">
+        <label for="resetFilter">.</label>
+        <Button
+            id="resetFilter"
+            on:click={resetFilter}
+            color="primary"
+            size="sm"
+            >Reset
+        </Button>
+        <!-- <Button></Button> -->
     </div>
 </div>
 
