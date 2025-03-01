@@ -61,14 +61,16 @@
 
         <Button
             id="openFilter"
-            color="primary"
             size="sm"
-            class="button"
+            color="dark"
             on:click={openFilter}>Filter</Button
         >
 
         {#if open}
-            <div in:fly={{ y: 20, duration: 300 }} out:fly={{ y: 20, duration: 300 }}>
+            <div
+                in:fly={{ y: 20, duration: 300 }}
+                out:fly={{ y: 20, duration: 300 }}
+            >
                 <!-- content here -->
                 <FilterComponent
                     statuses={filterOptions.statuses}
@@ -103,22 +105,4 @@
         border-style: groove;
     }
 
-    .button {
-        flex: 1;
-        padding: 4px;
-        text-align: center;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        background-color: var(--bs-primary);
-        /* background-color: #f8f9fa; */
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.2s;
-        font-size: 16px;
-    }
-
-    .button:hover {
-        background-color: #e0e0e0;
-        color: var(--bs-primary);
-    }
 </style>

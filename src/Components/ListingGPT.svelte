@@ -78,47 +78,49 @@
                     <div class="type-area">-------------------</div>
                     <!-- <div class="description">{listing.description[0]}</div> -->
                     <div class="descriptions">
-                        {#each listing.description as item}
-                            <!-- <p> -->
-                            <li>
-                                {item}
-                            </li>
-                            <!-- </p> -->
-                        {/each}
+                        <ul>
+                            {#each listing.description as item}
+                                <!-- <p> -->
+                                <li>
+                                    {item}
+                                </li>
+                                <!-- </p> -->
+                            {/each}
+                        </ul>
                     </div>
 
                     <div class="actions p-2">
                         <!-- <Button outline color="success">Primary</Button> -->
                         <a
                             href={`tel:${company_details.phone}`}
-                            class="btn btn-primary button">Call</a
+                            class="btn btn-dark button">Call</a
                         >
                         <a
                             href={`mailto:${company_details.email}`}
-                            class="btn btn-primary button">Email</a
+                            class="btn btn-dark button">Email</a
                         >
                         <a
                             href={company_details.whatsapp}
-                            class="btn btn-primary button">Whatsapp</a
+                            class="btn btn-dark button">Whatsapp</a
                         >
                         <!-- <div class="button">
                         <p>
                             <a href={`tel:${company_details.phone}`}>Call</a>
-                        </p>
-                    </div>
-                    <div class="button">
-                        <p>
-                            <a href={`mailto:${company_details.email}`}>Email</a
-                            >
-                        </p>
-                    </div>
-                    <div class="button">
-                        <p>
-                            <a href={company_details.whatsapp} target="_blank"
-                                >WhatsApp</a
-                            >
-                        </p>
-                    </div> -->
+                            </p>
+                            </div>
+                            <div class="button">
+                                <p>
+                                    <a href={`mailto:${company_details.email}`}>Email</a
+                                    >
+                                    </p>
+                                    </div>
+                                    <div class="button">
+                                        <p>
+                                            <a href={company_details.whatsapp} target="_blank"
+                                            >WhatsApp</a
+                                            >
+                                            </p>
+                                            </div> -->
                     </div>
                 </div>
             </div>
@@ -126,10 +128,10 @@
     {:else}
         <p>nothing to show with these filters</p>
         <!-- <button type="button" href="/portfolio"  class="submitBnt btn btn-primary"
-            >Go back to Portfolio page</button
-        > -->
+                                >Go back to Portfolio page</button
+                                > -->
         <!-- <Button color="primary">
-            >Go back to Portfolio page</Button> -->
+                                    >Go back to Portfolio page</Button> -->
         {#if $page.url.pathname !== "/portfolio"}
             <Button
                 class="uppercase"
@@ -243,9 +245,12 @@
     }
 
     .location {
+        padding: 4px;
+        border-radius: 4px;
         font-size: 14px;
-        color: #777;
+        color: #ffffff;
         margin: 8px 0;
+        background-color: black;
     }
 
     .actions {
@@ -261,16 +266,20 @@
         text-align: center;
         border: 1px solid #ddd;
         border-radius: 4px;
-        background-color: var(--bs-primary);
+        background-color: var(--bs-dark);
         /* background-color: #f8f9fa; */
         color: white;
         cursor: pointer;
         transition: background-color 0.2s;
         font-size: 16px;
+        transition: background-color .4s ease-in;
     }
 
     .button:hover {
-        background-color: #e0e0e0;
-        color: var(--bs-primary);
+        background-color: #ffffff;
+        color: var(--bs-dark);
+        transition: background-color .4s ease-out;
+        /* background-color: #e0e0e0; */
+        /* color: var(--bs-primary); */
     }
 </style>

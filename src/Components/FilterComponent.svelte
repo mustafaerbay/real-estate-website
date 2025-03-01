@@ -169,7 +169,7 @@
         <Button
             id="resetFilter"
             on:click={resetFilter}
-            color="primary"
+            color="dark"
             size="sm"
             >Reset
         </Button>

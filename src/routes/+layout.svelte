@@ -77,8 +77,10 @@
 <NavbarCustom />
 
 <!-- START HOME & ABOUT-->
-<slot />
-
+<!-- svelte-ignore a11y_no_redundant_roles -->
+<main role="main">
+    <slot />
+</main>
 <!-- START BLOG -->
 <!-- <Blog /> -->
 <!-- <Listings {data}></Listings> -->
