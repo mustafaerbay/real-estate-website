@@ -68,6 +68,15 @@
 
         gtag("config", "AW-16848088701");
     </script>
+    <script>
+        (function () {
+            var script = document.createElement("script");
+            script.src = "https://metricfortune.vercel.app/tracking.js";
+            script.setAttribute("data-site-id", "site_SfCOKXGWQj0vGgYW");
+            script.async = true;
+            document.head.appendChild(script);
+        })();
+    </script>
 </svelte:head>
 
 <!-- Loader -->
