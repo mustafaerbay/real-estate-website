@@ -70,7 +70,7 @@
     </script>
     <script src="https://metricfortune.vercel.app/tracking.js"></script>
     <script>
-        MetricFortune.init({ siteId: "site_mxfMmLJRXETNqUTJ" });
+        MetricFortune.init({ siteId: "site_p4NITpD3mnhRTbI0" });
     </script>
     <!-- <script>
         (function () {
